@@ -1,0 +1,500 @@
+  174  ls -l
+  175  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  176  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  177  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  178  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  179  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  180  ls -lt
+  181  vim atToc159_aa_Phytozome_7.xml 
+  182  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  183  vim atToc159_aa_Phytozome_7.xml 
+  184  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  185  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  186  python
+  187  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  188  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  189  xml_to_fasta.py atToc159_aa_Phytozome_7.xml | something.py /Users/mats/db/all/aa/Phytozome_7_aa out.fst
+  190  xml_to_fasta.py atToc159_aa_Phytozome_7.xml > headers.txt
+  191  vim headers.txt 
+  192  cat /Users/mats/scripts/something.py 
+  193  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  194  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  195  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  196  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa out.fst
+  197  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa out.fst
+  198  sl -tl
+  199  ls -lt
+  200  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  201  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  202  vim atToc159_aa_Phytozome_7.xml
+  203  xml_to_fasta.py atToc159_aa_Phytozome_7.xml
+  204  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa out.fst
+  205  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa out.fst
+  206  ls -lt
+  207  vim out.fst 
+  208  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa 
+  209  xml_to_fasta.py atToc159_aa_Phytozome_7.xml /Users/mats/db/all/aa/Phytozome_7_aa > out.fst
+  210  vim out.fst 
+  211  ls -l
+  212  rm alignment.fst*
+  213  ls -l
+  214  rm headers.txt 
+  215  mv out.fst atToc159_aa_Phytozome_7.fst
+  216  linsi atToc159_aa_Phytozome_7.fst > atToc159_aa_Phytozome_7.linsi.fst
+  217  ls -lt
+  218  rm atToc159_aa_Phytozome_7.linsi.fst
+  219  seaview atToc159_aa_Phytozome_7.fst &
+  220  mafft atToc159_aa_Phytozome_7.fst > atToc159_aa_Phytozome_7.mafft.fst
+  221  seaview atToc159_aa_Phytozome_7.mafft.fst &
+  222  seaview --reorder atToc159_aa_Phytozome_7.mafft.fst &
+  223  mafft --reorder atToc159_aa_Phytozome_7.fst > atToc159_aa_Phytozome_7.mafft.fst
+  224  seaview atToc159_aa_Phytozome_7.mafft.fst &
+  225  ls -l
+  226  vim atToc159_aa_Phytozome_7.fst 
+  227  mafft --reorder atToc159_aa_Phytozome_7.fst > atToc159_aa_Phytozome_7.mafft.fst
+  228  seaview atToc159_aa_Phytozome_7.mafft.fst &
+  229  ls -l
+  230  mv atToc159_aa_Phytozome_7.mafft.fst mod.fst
+  231  cat atToc159.fst >> mod.fst 
+  232  cat atToc159.fst 
+  233  ls -l
+  234  mafft --reorder mod.fst > mod.mafft.fst 
+  235  seaview mod.mafft.fst &
+  236  Glycine_max_Glyma05g29990.1|PACid:16260118
+  237  Glycine_max_Glyma05g29990.1|PACid:16260118
+  238  Glycine_max_Glyma08g13100.1|PACid:16270964
+  239  ls -l
+  240  history
+  241  history | grep blast
+  242  blastp -db /Users/mats/db/all/aa/single_species/Athaliana_167 -query atToc159.fst -outfmt 5 -out atToc159_Athaliana_167.xml -task blastp
+  243  xml_to_fasta.py atToc159_Athaliana_167.xml /Users/mats/db/all/aa/single_species/Athaliana > Athaliana_167.fst
+  244  vim Athaliana_167.fst
+  245  cat Athaliana_167.fst | grep ">" | wc -l
+  246  linsi Athaliana_167.fst > Athaliana_167.linsi.fst 
+  247  seaview Athaliana_167.linsi.fst &
+  248  cat atToc159.fst >> Athaliana_167.fst
+  249  linsi Athaliana_167.fst > Athaliana_167.linsi.fst 
+  250  linsi --reorser Athaliana_167.fst > Athaliana_167.linsi.fst 
+  251  linsi --reorder Athaliana_167.fst > Athaliana_167.linsi.fst 
+  252  seaview Athaliana_167.linsi.fst &
+  253  vim Athaliana_167.linsi.2.fst 
+  254  blastp -db /Users/mats/db/Peptide_dbs/Athaliana_167_peptide -query atToc159.fst -outfmt 5 -out atToc159_Athaliana_167_peptide.xml -task blastp
+  255  cat atToc159_Athaliana_167_peptide.xml | grep ">" | wc -l
+  256  cat atToc159_Athaliana_167_peptide.xml | grep ">" | wc -l
+  257  ls -l
+  258  ls -lt
+  259  xml_to_fasta.py atToc159_Athaliana_167_peptide.xml /Users/mats/db/Peptide_dbs/Athaliana_167_peptide > peptide.fst
+  260  mafft --reorder peptide.fst > peptide.mafft.fst 
+  261  seaview peptide.mafft.fst &
+  262  vim peptide.mafft.fst 
+  263  vim peptide.mafft.fst 
+  264  ls -lt
+  265  vim peptide.mafft.2.nex 
+  266  ls -lt
+  267  rm peptide.mafft.2.nex
+  268  vim peptide.mafft.2.fst 
+  269  seaview peptide.mafft.2.fst &
+  270  cat atToc159.fst >> peptide.mafft.2.fst
+  271  linsi --reorder peptide.mafft.2.fst > peptide.linsi.2.fst
+  272  seaview peptide.linsi.2.fst &
+  273  cat peptide.linsi.2.fst | grep ">"
+  274  vim peptide.linsi.2.fst 
+  275  onelinefasta.py peptide.linsi.2.fst
+  276  onelinefasta.py peptide.linsi.2.fst > peptide.linsi.3.fst
+  277  vim peptide.linsi.3.fst
+  278  ls -l
+  279  locate toc100
+  280  cd /Users/mats/project/toc100
+  281  ls -l
+  282  cd -
+  283  ls -lt
+  284  cat peptide.mafft.fst | grep ">" | wc -l
+  285  vim peptide.mafft.fst
+  286  cat peptide.mafft.fst | grep ">"
+  287  vim peptide.mafft.fst
+  288  ls -lt
+  289  cp peptide.linsi.3.fst peptide.4.fst
+  290  vim peptide.4.fst
+  291  vim peptide.4.fst
+  292  linsi --reorder peptide.4.fst > peptide.4.linsi.fst
+  293  seaview peptide.4.linsi.fst &
+  294  ls -lt
+  295  seaview peptide.mafft.fst &
+  296  ls -lt
+  297  seaview peptide.linsi.3.fst &
+  298  vim peptide.linsi.3.fst
+  299  seaview peptide.linsi.3.fst &
+  300  ls -lt
+  301  seaview peptide.4.linsi.fst &
+  302  ls -tl
+  303  vim peptide.4.linsi.fst
+  304  seaview peptide.4.linsi.fst &
+  305  cat peptide.4.linsi.fst | grep ">"
+  306  ls -lt
+  307  cp peptide.4.linsi.fst asdf.fst
+  308  vim asdf.fst
+  309  cat peptide.fst >> asdf.fst
+  310  linsi asdf.fst > asdf.insi.fst
+  311  seaview asdf.insi.fst &
+  312  cd ..
+  313  cd -
+  314  ls -l
+  315  ls -lt
+  316  vim peptide.4.linsi.fst
+  317  cd ..
+  318  mkdir AT4G02482
+  319  cd AT4G02482
+  320  cat ../159/peptide.4.linsi.fst
+  321  cd ../159/peptide.4.linsi.fst .
+  322  cp ../159/peptide.4.linsi.fst .
+  323  mv peptide.4.linsi.fst AT4G02482
+  324  mv AT4G02482 AT4G02482.fst
+  325  seaview AT4G02482.fst &
+  326  history | grep blast
+  327  blastp -db ~/db/Arabidopsis_lyrata/annotation/Alyrata_107_peptide -query AT4G02482.fst -outfmt 5 -out AT4G02482_Alyrata_107_peptide.xml -task blastp
+  328  ls -lt
+  329  xml_to_fasta.py AT4G02482_Alyrata_107_peptide.xml ~/db/Arabidopsis_lyrata/annotation/Alyrata_107_peptide > AT4G02482_Alyrata_107_peptide.fst
+  330  cat AT4G02482_Alyrata_107_peptide.fst | grep ">" | wc -l
+  331  linsi AT4G02482_Alyrata_107_peptide.fst > AT4G02482_Alyrata_107_peptide.linsi.fst
+  332  seaview AT4G02482_Alyrata_107_peptide.linsi.fst &
+  333  ls -l
+  334  cat AT4G02482.fst >> AT4G02482_Alyrata_107_peptide.fst
+  335  linsi AT4G02482_Alyrata_107_peptide.fst > AT4G02482_Alyrata_107_peptide.linsi.fst
+  336  seaview AT4G02482_Alyrata_107_peptide.linsi.fst &
+  337  linsi --reorder AT4G02482_Alyrata_107_peptide.fst > AT4G02482_Alyrata_107_peptide.linsi.fst
+  338  seaview AT4G02482_Alyrata_107_peptide.linsi.fst &
+  339  ls -l
+  340  cat AT4G02482.fst 
+  341  vim 
+  342  ls -l
+  343  blastp -db ~/db/Capsella_rubella/annotation/Crubella_183_peptide -query AT4G02482.fst -outfmt 5 -out AT4G02482_Crubella_183_peptide.xml -task blastp
+  344  ls -lt
+  345  xml_to_fasta.py AT4G02482_Crubella_183_peptide.xml ~/db/Capsella_rubella/annotation/Crubella_183_peptide > AT4G02482_Crubella_183_peptide.fst
+  346  grep ">" AT4G02482_Crubella_183_peptide.fst | wc -l
+  347  cat AT4G02482.fst >> AT4G02482_Crubella_183_peptide.fst
+  348  linsi --reorder AT4G02482_Crubella_183_peptide.fst > AT4G02482_Crubella_183_peptide.linsi.fst
+  349  seaview AT4G02482_Crubella_183_peptide.linsi.fst &
+  350  cd ..
+  351  ls -l
+  352  cd 159/
+  353  mv ~/Downloads/mart_export.txt phytozome_159_genefamily.fst
+  354  ls -l
+  355  mkdir phytozone
+  356  mv phytozone phytozome
+  357  mv phytozome_159_genefamily.fst phytozome
+  358  cd phytozome
+  359  ls -l
+  360  mafft --reorder phytozome_159_genefamily.fst > 159.genefamily.mafft.fst
+  361  seaview 159.genefamily.mafft.fst &
+  362  ls -l
+  363  ls -lt
+  364  vim 159.genefamily.mafft.fst 
+  365  ls -lt
+  366  vim 159.genefamily.mafft.fst
+  367  mv 159.genefamily.mafft.fst asdf
+  368  mafft --reorder asdf > 159.genefamily.mafft.fst
+  369  vim 159.genefamily.mafft.fst
+  370  seaview 159.genefamily.mafft.fst &
+  371  ls -lt
+  372  vim 159.genefamily.SHORT.fst
+  373  cd ..
+  374  ls -l
+  375  cat atToc159.fst 
+  376  ls -l
+  377  mkdir ncbi
+  378  cd ncbi
+  379  vim result.fst
+  380  history | grep blast
+  381  history | grep blast
+  382  cd ../phytozome/
+  383  ls -l
+  384  blastp -db ~/db/all/aa/single_species/Alyrata_107 -query atToc159.fst -outfmt 5 -out Alyrata.xml -task blastp
+  385  xml_to_fasta.py Alyrata.xml ~/db/all/aa/single_species/Alyrata_107 > Alyrata.fst
+  386  cat atToc159.fst >> Alyrata.fst 
+  387  linsi --reorder Alyrata.fst > Alyrata.linsi.fst
+  388  seaview Alyrata.linsi.fst &
+  389  xml_to_fasta.py Alyrata.xml ~/db/all/aa/single_species/Osativa_120 > Osativa.fst
+  390  rm Osativa.fst 
+  391  blastp -db ~/db/all/aa/single_species/Osativa_120 -query atToc159.fst -outfmt 5 -out Osativa.xml -task blastp
+  392  xml_to_fasta.py Osativa.xml ~/db/all/aa/single_species/Osativa_120 > Osativa.fst
+  393  cat atToc159.fst >> Osativa.fst
+  394  linsi --reorder Osativa.fst > Osativa.linsi.fst
+  395  seaview Osativa.linsi.fst &
+  396  vim Alyrata.linsi.fst &
+  397  kill 66306
+  398  seaview Alyrata.linsi.fst &
+  399  ls -l
+  400  cd ..
+  401  cd ..
+  402  mkdir 90
+  403  cd 90
+  404  vim atToc90.fst
+  405  blastp -db ~/db/all/aa/single_species/Ppatens_152 -query atToc90.fst -outfmt 5 -out Ppatens.xml -task blastp
+  406  xml_to_fasta.py Ppatens.xml ~/db/all/aa/single_species/Ppatens_152 > Ppatens.fst
+  407  cat atToc90.fst >> Ppatens.fst 
+  408  linsi --reorder Ppatens.fst > Ppatens.linsi.fst
+  409  seaview Ppatens.linsi.fst &
+  410  vim Ppatens.linsi.fst 
+  411  df -h
+  412  df -h
+  413  df -h
+  414  cd 
+  415  cd project/web/
+  416  ls -l
+  417  cd antonelli-lab.net/
+  418  ls -l
+  419  mkdir test
+  420  cd test
+  421  vim flickr.html
+  422  cd ..
+  423  vim photos.php 
+  424  vim photos.php 
+  425  ls -l
+  426  cd 
+  427  cd project/
+  428  ls -l
+  429  df -h
+  430  ls -l
+  431  mkdir qihua
+  432  cd qihua
+  433  cp /Volumes/CANON_DC/UPS\ in\ Mitochondria\ from\ Qihua/* .
+  434  ls -l
+  435  open 2011\ review\ UP*
+  436  cd ..
+  437  ls -l
+  438  cd sp1/
+  439  ls -l
+  440  ls -lt
+  441  ls -l
+  442  cd mrbayes/
+  443  ls -l
+  444  ls -lt
+  445  cd Full_length_10.SHORT/
+  446  ls -l
+  447  cd ..
+  448  cd ..
+  449  ls -l
+  450  ls -l Full_length_9/
+  451  locate Full_length_10
+  452  cd /Users/mats/project/sp1/meme/regexp_TMD/
+  453  ls -l
+  454  ls -lt
+  455  seaview Full_length_10.short.fst &
+  456  cd ..
+  457  cd ..
+  458  cd writing/
+  459  ls -l
+  460  ls -l phylo_paper/
+  461  cd phylo_paper/
+  462  cat Journals.txt 
+  463  df -h
+  464  cd 
+  465  cd db/
+  466  cd Phytozome/
+  467  ls -l
+  468  cd Eucalyptus_grandis/
+  469  ls -l
+  470  mkdir ../../outdated_genomes/Egrandis
+  471  mv * ../../outdated_genomes/Egrandis
+  472  wget -r ftp://ftp.jgi-psf.org/pub/JGI_data/phytozome/v8.0/Egrandis/*
+  473  ls -l
+  474  mv ftp.jgi-psf.org/pub/JGI_data/phytozome/v8.0/Egrandis/* .
+  475  ls -l
+  476  rm -rf ftp.jgi-psf.org/
+  477  cd db/Phytozome/
+  478  mkdir Brassica_rapa
+  479  cd 
+  480  cd db/Phytozome/Brassica_rapa/
+  481  wget -r ftp://ftp.jgi-psf.org/pub/JGI_data/phytozome/v8.0/Brapa/*
+  482  wget -r ftp://ftp.jgi-psf.org/pub/JGI_data/phytozome/v8.0/Brapa/*
+  483  ls -l
+  484  mv ftp.jgi-psf.org/pub/JGI_data/phytozome/v8.0/Brapa/* .
+  485  ls -l
+  486  rm -rf ftp.jgi-psf.org/
+  487  ls -l
+  488  cd project/chloroplast/
+  489  ls -l
+  490  cd datasets/
+  491  ls -l
+  492  mv 90/ toc90
+  493  cd toc90
+  494  ls -l
+  495  seaview Ppatens.fst &
+  496  seaview Ppatens.linsi.fst &
+  497  ls -l
+  498  vim atToc90.fst 
+  499  ls- l
+  500  ls -l
+  501  cd project/chloroplast/datasets/toc90/
+  502  ls -l
+  503  history | grep blast
+  504  blastp -db /Users/mats/db/Phytozome/Aquilegia_coerulea/annotation -query atToc90.fst -outfmt 5 -out Acoerulea.xml -task blastp
+  505  blastp -db /Users/mats/db/Phytozome/Aquilegia_coerulea/annotation/Acoerulea_195_peptide -query atToc90.fst -outfmt 5 -out Acoerulea.xml -task blastp
+  506  xml_to_fasta.py Acoerulea.xml /Users/mats/db/Phytozome/Aquilegia_coerulea/annotation/Acoerulea_195_peptide > Acoerulea.fst
+  507  cat atToc90.fst >> Acoerulea.fst
+  508  linsi --reorder Acoerulea.fst > Acoerulea.linsi.fst
+  509  seaview Acoerulea.linsi.fst &
+  510  ls -l
+  511  blastp -db /Users/mats/db/Phytozome/Arabidopsis_lyrata/annotation/Alyrata_107_peptide -query atToc90.fst -outfmt 5 -out Alyrata.xml -task blastp
+  512  xml_to_fasta.py Alyrata.xml /Users/mats/db/Phytozome/Arabidopsis_lyrata/annotation/Alyrata_107_peptide > Alyrata.fst
+  513  linsi --reorder Alyrata.fst > Alyrata.linsi.fst
+  514  seaview Alyrata.linsi.fst &
+  515  cat atToc90.fst >> Alyrata.fst 
+  516  linsi --reorder Alyrata.fst > Alyrata.linsi.fst
+  517  seaview Alyrata.linsi.fst &
+  518  blastp -db /Users/mats/db/Phytozome/Brachypodium_distachyon/annotation/Bdistachyon_192_peptide -query atToc90.fst -outfmt 5 -out Bdistachyon.xml -task blastp
+  519  xml_to_fasta.py Bdistachyon.xml /Users/mats/db/Phytozome/Brachypodium_distachyon/annotation/Bdistachyon_192_peptide > Bdistachyon.fst
+  520  cat atToc90.fst >> Bdistachyon.fst 
+  521  linsi --reorder Bdistachyon.fst > Bdistachyon.linsi.fst
+  522  seaview Bdistachyon.linsi.fst &
+  523  blastp -db /Users/mats/db/Phytozome/Brassica_rapa/annotation/Brapa_197_peptide -query atToc90.fst -outfmt 5 -out Brapa.xml -task blastp
+  524  xml_to_fasta.py Brapa.xml /Users/mats/db/Phytozome/Brassica_rapa/annotation/Brapa_197_peptide > Brapa.fst
+  525  cat atToc90.fst >> Brapa.fst
+  526  linsi --reorder Brapa.fst > Brapa.linsi.fst
+  527  seaview Brapa.linsi.fst &
+  528  ls -l
+  529  blastp -db /Users/mats/db/Phytozome/Capsella_rubella/annotation/Crubella_183_peptide -query atToc90.fst -outfmt 5 -out Crubella.xml -task blastp
+  530  xml_to_fasta.py Crubella.xml /Users/mats/db/Phytozome/Capsella_rubella/annotation/Crubella_183_peptide > Crubella.fst
+  531  cat atToc90.fst >> Crubella.fst 
+  532  linsi --reorder Crubella.fst > Crubella.linsi.fst
+  533  seaview Crubella.linsi.fst &
+  534  blastp -db /Users/mats/db/Phytozome/Carica_papaya/annotation/Cpapaya_113_peptide -query atToc90.fst -outfmt 5 -out Cpapaya.xml -task blastp
+  535  xml_to_fasta.py Cpapaya.xml /Users/mats/db/Phytozome/Carica_papaya/annotation/Cpapaya_113_peptide > Cpapaya.fst
+  536  cat atToc90.fst >> Cpapaya.fst
+  537  linsi --reorder Cpapaya.fst > Cpapaya.linsi.fst
+  538  seaview Cpapaya.linsi.fst &
+  539  blastp -db /Users/mats/db/Phytozome/Chlamydomonas_reinhardtii/annotation/Creinhardtii_169_peptide -query atToc90.fst -outfmt 5 -out Creinhardtii.xml -task blastp
+  540  xml_to_fasta.py Creinhardtii.xml /Users/mats/db/Phytozome/Chlamydomonas_reinhardtii/annotation/Creinhardtii_169_peptide > Creinhardtii.fst
+  541  cat atToc90.fst >> Creinhardtii.fst
+  542  linsi --reorder Creinhardtii.fst > Creinhardtii.linsi.fst
+  543  seaview Creinhardtii.linsi.fst &
+  544  ls -l
+  545  blastp -db /Users/mats/db/Phytozome/Citrus_clementina/annotation/Cclementina_165_peptide -query atToc90.fst -outfmt 5 -out Cclementina.xml -task blastp
+  546  xml_to_fasta.py Cclementina.xml /Users/mats/db/Phytozome/Citrus_clementina/annotation/Cclementina_165_peptide > Cclementina.fst
+  547  cat atToc90.fst >> Cclementina.fst
+  548  linsi --reorder Cclementina.fst > Cclementina.linsi.fst
+  549  ls -l
+  550  seaview Cclementina.linsi.fst &
+  551  blastp -db /Users/mats/db/Phytozome/Cucumis_sativus/annotation/Csativus_122_peptide -query atToc90.fst -outfmt 5 -out Csativus.xml -task blastp
+  552  xml_to_fasta.py Csativus.xml /Users/mats/db/Phytozome/Cucumis_sativus/annotation/Csativus_122_peptide > Csativus.fst
+  553  cat atToc90.fst >> Csativus.fst 
+  554  linsi --reorder Csativus.fst > Csativus.linsi.fst
+  555  seaview Csativus.linsi.fst &
+  556  blastp -db /Users/mats/db/Phytozome/Eucalyptus_grandis/annotation/Egrandis_201_peptide -query atToc90.fst -outfmt 5 -out Egrandis.xml -task blastp
+  557  xml_to_fasta.py Egrandis.xml /Users/mats/db/Phytozome/Eucalyptus_grandis/annotation/Egrandis_201_peptide > Egrandis.fst
+  558  cat atToc90.fst >> Egrandis.fst
+  559  linsi --reorder Egrandis.fst > Egrandis.linsi.fst
+  560  seaview  Egrandis.linsi.fst &
+  561  blastp -db /Users/mats/db/Phytozome/Glycine_max/annotation/Gmax_109_peptide -query atToc90.fst -outfmt 5 -out Gmax.xml -task blastp
+  562  ls -l
+  563  xml_to_fasta.py Gmax.xml /Users/mats/db/Phytozome/Glycine_max/annotation/Gmax_109_peptide > Gmax.fst
+  564  cat atToc90.fst >> Gmax.fst
+  565  linsi --reorder Gmax.fst > Gmax.linsi.fst
+  566  seaview Gmax.linsi.fst &
+  567  blastp -db /Users/mats/db/Phytozome/Linum_usitatissimum/annotation/Lusitatissimum_200_peptide -query atToc90.fst -outfmt 5 -out Lusitatissimum.xml -task blastp
+  568  xml_to_fasta.py Lusitatissimum.xml /Users/mats/db/Phytozome/Linum_usitatissimum/annotation/Lusitatissimum_200_peptide > Lusitatissimum.fst
+  569  cat atToc90.fst >> Lusitatissimum.fst
+  570  linsi --reorder Lusitatissimum.fst > Lusitatissimum.linsi.fst
+  571  seaview Lusitatissimum.linsi.fst &
+  572  blastp -db /Users/mats/db/Phytozome/Malus_domestica/annotation/Mdomestica_196_peptide -query atToc90.fst -outfmt 5 -out Mdomestica.xml -task blastp
+  573  xml_to_fasta.py Mdomestica.xml /Users/mats/db/Phytozome/Malus_domestica/annotation/Mdomestica_196_peptide > Mdomestica.fst
+  574  cat atToc90.fst >> Mdomestica.fst
+  575  linsi --reorder Mdomestica.fst > Mdomestica.linsi.fst
+  576  seaview  Mdomestica.linsi.fst &
+  577  blastp -db /Users/mats/db/Phytozome/Manihot_esculenta/annotation/Mesculenta_147_peptide -query atToc90.fst -outfmt 5 -out Mesculenta.xml -task blastp
+  578  xml_to_fasta.py Mesculenta.xml /Users/mats/db/Phytozome/Manihot_esculenta/annotation/Mesculenta_147_peptide > Mesculenta.fst
+  579  cat atToc90.fst >> Mesculenta.fst
+  580  linsi --reorder Mesculenta.fst > Mesculenta.linsi.fst
+  581  seaview Mesculenta.linsi.fst &
+  582  ls -l
+  583  blastp -db /Users/mats/db/Phytozome/Medicago_truncatula/annotation/Mtruncatula_135_peptide -query atToc90.fst -outfmt 5 -out Mtruncatula.xml -task blastp
+  584  xml_to_fasta.py Mtruncatula.xml /Users/mats/db/Phytozome/Medicago_truncatula/annotation/Mtruncatula_135_peptide > Mtruncatula.fst
+  585  cat atToc90.fst >> Mtruncatula.fst
+  586  linsi --reorder Mtruncatula.fst > Mtruncatula.linsi.fst
+  587  seaview Mtruncatula.linsi.fst &
+  588  blastp -db /Users/mats/db/Phytozome/Mimulus_guttatus/annotation/Mguttatus_140_peptide -query atToc90.fst -outfmt 5 -out Mguttatus.xml -task blastp
+  589  xml_to_fasta.py Mguttatus.xml /Users/mats/db/Phytozome/Mimulus_guttatus/annotation/Mguttatus_140_peptide > Mguttatus.fst
+  590  cat atToc90.fst >> Mguttatus.fst
+  591  linsi --reorder Mguttatus.fst > Mguttatus.linsi.fst
+  592  seaview Mguttatus.linsi.fst &
+  593  blastp -db /Users/mats/db/Phytozome/Oryza_sativa/annotation/Osativa_193_peptide -query atToc90.fst -outfmt 5 -out Osativa.xml -task blastp
+  594  xml_to_fasta.py Osativa.xml /Users/mats/db/Phytozome/Oryza_sativa/annotation/Osativa_193_peptide > Osativa.fst
+  595  cat atToc90.fst >> Osativa.fst
+  596  linsi --reorder Osativa.fst > Osativa.linsi.fst
+  597  seaview Osativa.linsi.fst &
+  598  ls -l
+  599  blastp -db /Users/mats/db/Phytozome/Populus_trichocarpa/annotation/Ptrichocarpa_156_peptide -query atToc90.fst -outfmt 5 -out Ptrichocarpa.xml -task blastp
+  600  xml_to_fasta.py Ptrichocarpa.xml /Users/mats/db/Phytozome/Populus_trichocarpa/annotation/Ptrichocarpa_156_peptide > Ptrichocarpa.fst
+  601  cat atToc90.fst >> Ptrichocarpa.fst
+  602  linsi --reorder Ptrichocarpa.fst > Ptrichocarpa.linsi.fst
+  603  seaview Ptrichocarpa.linsi.fst &
+  604  blastp -db /Users/mats/db/Phytozome/Prunus_persica/annotation/Ppersica_139_peptide -query atToc90.fst -outfmt 5 -out Ppersica.xml -task blastp
+  605  xml_to_fasta.py Ppersica.xml /Users/mats/db/Phytozome/Prunus_persica/annotation/Ppersica_139_peptide > Ppersica.fst
+  606  cat atToc90.fst >> Ppersica.fst
+  607  linsi --reorder Ppersica.fst > Ppersica.linsi.fst
+  608  seaview Ppersica.linsi.fst &
+  609  blastp -db /Users/mats/db/Phytozome/Ricinus_communis/annotation/Rcommunis_119_peptide -query atToc90.fst -outfmt 5 -out Rcommunis.xml -task blastp
+  610  xml_to_fasta.py Rcommunis.xml /Users/mats/db/Phytozome/Ricinus_communis/annotation/Rcommunis_119_peptide > Rcommunis.fst
+  611  cat atToc90.fst >> Rcommunis.fst
+  612  linsi --reorder Rcommunis.fst > Rcommunis.linsi.fst
+  613  seaview Rcommunis.linsi.fst &
+  614  blastp -db /Users/mats/db/Phytozome/Selaginella_moellendorffii/annotation/Smoellendorffii_91_peptide -query atToc90.fst -outfmt 5 -out Smoellendorffii.xml -task blastp
+  615  xml_to_fasta.py Smoellendorffii.xml /Users/mats/db/Phytozome/Selaginella_moellendorffii/annotation/Smoellendorffii_91_peptide > Smoellendorffii.fst
+  616  cat atToc90.fst >> Smoellendorffii.fst
+  617  linsi --reorder Smoellendorffii.fst > Smoellendorffii.linsi.fst
+  618  seaview Smoellendorffii.linsi.fst &
+  619  blastp -db /Users/mats/db/Phytozome/Setaria_italica/annotation/Sitalica_164_peptide -query atToc90.fst -outfmt 5 -out Sitalica.xml -task blastp
+  620  xml_to_fasta.py Sitalica.xml /Users/mats/db/Phytozome/Setaria_italica/annotation/Sitalica_164_peptide > Sitalica.fst
+  621  cat atToc90.fst >> Sitalica.fst
+  622  linsi --reorder Sitalica.fst > Sitalica.linsi.fst
+  623  seaview Sitalica.linsi.fst &
+  624  blastp -db /Users/mats/db/Phytozome/Sorghum_bicolor/annotation/Sbicolor_79_peptide -query atToc90.fst -outfmt 5 -out Sbicolor.xml -task blastp
+  625  xml_to_fasta.py Sbicolor.xml /Users/mats/db/Phytozome/Sorghum_bicolor/annotation/Sbicolor_79_peptide > Sbicolor.fst
+  626  cat atToc90.fst >> Sbicolor.fst 
+  627  linsi --reorder Sbicolor.fst > Sbicolor.linsi.fst
+  628  seaview Sbicolor.linsi.fst &
+  629  blastp -db /Users/mats/db/Phytozome/Thellungiella_halophila/annotation/Thalophila_173_peptide -query atToc90.fst -outfmt 5 -out Thalophila.xml -task blastp
+  630  xml_to_fasta.py Thalophila.xml /Users/mats/db/Phytozome/Thellungiella_halophila/annotation/Thalophila_173_peptide > Thalophila.fst
+  631  cat atToc90.fst >> Thalophila.fst
+  632  linsi --reorder Thalophila.fst > Thalophila.linsi.fst
+  633  seaview Thalophila.linsi.fst &
+  634  ls -l
+  635  ls -lt
+  636  blastp -db /Users/mats/db/Phytozome/Panucum_virgatum/annotation/Pvirgatum_202_peptide -query atToc90.fst -outfmt 5 -out Pvirgatum.xml -task blastp
+  637  xml_to_fasta.py Pvirgatum.xml /Users/mats/db/Phytozome/Panucum_virgatum/annotation/Pvirgatum_202_peptide > Pvirgatum.fst
+  638  cat atToc90.fst >> Pvirgatum.fst
+  639  linsi --reorder Pvirgatum.fst > Pvirgatum.linsi.fst
+  640  seaview Pvirgatum.linsi.fst &
+  641  blastp -db /Users/mats/db/Phytozome/Phaseolus_vulgaris/annotation/Pvulgaris_186_peptide -query atToc90.fst -outfmt 5 -out Pvulgaris.xml -task blastp
+  642  xml_to_fasta.py Pvulgaris.xml /Users/mats/db/Phytozome/Phaseolus_vulgaris/annotation/Pvulgaris_186_peptide > Pvulgaris.fst
+  643  cat atToc90.fst >> Pvulgaris.fst
+  644  linsi --reorder Pvulgaris.fst > Pvulgaris.linsi.fst
+  645  seaview Pvulgaris.linsi.fst &
+  646  ls -l
+  647  blastp -db /Users/mats/db/Phytozome/Vitis_vinifera/annotation/Vvinifera_145_peptide -query atToc90.fst -outfmt 5 -out Vvinifera.xml -task blastp
+  648  xml_to_fasta.py Vvinifera.xml /Users/mats/db/Phytozome/Vitis_vinifera/annotation/Vvinifera_145_peptide > Vvinifera.fst
+  649  cat atToc90.fst >> Vvinifera.fst
+  650  linsi --reorder Vvinifera.fst > Vvinifera.linsi.fst
+  651  seaview Vvinifera.linsi.fst &
+  652  vim Vvinifera.linsi.fst 
+  653  vim Vvinifera.linsi.fst 
+  654  vim Vvinifera.linsi.fst 
+  655  mv Vvinifera.linsi.fst~ Vvinifera.linsi.fst
+  656  vim Vvinifera.linsi.fst
+  657  vim Vvinifera.linsi.fst
+  658  seaview Vvinifera.linsi.fst &
+  659  blastp -db /Users/mats/db/Phytozome/Zea_mays/annotation/Zmays_181_peptide -query atToc90.fst -outfmt 5 -out Zmays.xml -task blastp
+  660  xml_to_fasta.py Zmays.xml /Users/mats/db/Phytozome/Zea_mays/annotation/Zmays_181_peptide > Zmays.fst
+  661  cat atToc90.fst >> Zmays.fst 
+  662  linsi --reorder Zmays.fst > Zmays.linsi.fst
+  663  seaview Zmays.linsi.fst &
+  664  ls -l
+  665  touch Toc90.phytozome_8.fst
+  666  cat atToc90.fst >> Toc90.phytozome_8.fst
+  667  cat *.lisni.fst >> Toc90.phytozome_8.fst
+  668  cat *.linsi.fst >> Toc90.phytozome_8.fst
+  669  grep ">" Toc90.phytozome_8.fst | wc -l
+  670  linsi --reorder Toc90.phytozome_8.fst > Toc90.phytozome_8.linsi.fst 
+  671  seaview Toc90.phytozome_8.linsi.fst &
+  672  vim Toc90.phytozome_8.linsi.fst 
+  673  history > history.txt
