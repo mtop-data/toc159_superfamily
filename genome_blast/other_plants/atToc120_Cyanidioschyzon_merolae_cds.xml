@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/other_plant_genomes/all/Cyanidioschyzon_merolae_cds</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1089</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3128</Hit_id>
+          <Hit_def>@Cyanidioschyzon_merolae@_gnl|CMER|CMP284C similar to chloroplast outer membrane protein Toc34</Hit_def>
+          <Hit_accession>3128</Hit_accession>
+          <Hit_len>489</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>81.2629</Hsp_bit-score>
+              <Hsp_score>199</Hsp_score>
+              <Hsp_evalue>1.79511e-16</Hsp_evalue>
+              <Hsp_query-from>459</Hsp_query-from>
+              <Hsp_query-to>652</Hsp_query-to>
+              <Hsp_hit-from>82</Hsp_hit-from>
+              <Hsp_hit-to>282</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>59</Hsp_identity>
+              <Hsp_positive>94</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>206</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGLLPS-WSDQHKNEKILKSVRAFIKKSPPD---------IVLYLDRLDMQSRDSGDMPLLRTITDVFGPSIWFNAIVGLTHAASAPPDGPNGTASSYDMFVTQRSHVIQQAIRQAAGDMRLMN-PVSLVENHSACRT-NRAGQRVLPNGQVW</Hsp_qseq>
+              <Hsp_hseq>FLVVGAPGVGKSSLINTLLNENLCSVSAWERGTKNAQVCARQVDSVVIEFIDTPGIAPCRRSGLEASRRQVQRLRKLLDARGADEHPYLRSFHAILYVMRLDDTRPDLVDYHNWKVLMEFFGAEVLRHMMVVFTHGQSLPPD-----SLSYPEYVRGRRDYVYLLIERLTGPLKAVRFPVFVAENSSKCPVIEETGERKLPDDTPW</Hsp_hseq>
+              <Hsp_midline> +V+G  GVGKS+ IN++ +E   S  A++ GTK  Q     V  + +  IDTPG+ P   S    + + ++ +R  +     D          +LY+ RLD    D  D    + + + FG  +  + +V  TH  S PPD     + SY  +V  R   +   I +  G ++ +  PV + EN S C      G+R LP+   W</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3286</Hit_id>
+          <Hit_def>@Cyanidioschyzon_merolae@_gnl|CMER|CMQ137C similar to chloroplast outer membrane protein Toc34</Hit_def>
+          <Hit_accession>3286</Hit_accession>
+          <Hit_len>639</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>63.929</Hsp_bit-score>
+              <Hsp_score>154</Hsp_score>
+              <Hsp_evalue>7.33653e-11</Hsp_evalue>
+              <Hsp_query-from>502</Hsp_query-from>
+              <Hsp_query-to>649</Hsp_query-to>
+              <Hsp_hit-from>417</Hsp_hit-from>
+              <Hsp_hit-to>565</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>75</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>155</Hsp_align-len>
+              <Hsp_qseq>QGIKVRVIDTPGLLPSWSDQHKNEK-------ILKSVRAFIKKSPPDIVLYLDRLDMQSRDSGDMPLLRTITDVFGPSIWFNAIVGLTHAASAPPDGPNGTASSYDMFVTQRSHVIQQAIRQAAGDMRLMNPVSLVENHSACRTNRAGQRVLPNG</Hsp_qseq>
+              <Hsp_hseq>EGMSLRLIEIPSSEKYFYDEAGEDSKKWSRAGTCESVAAALRGLEIDIVCIIERLD-SYRSHCFRLVLEELKSLFDGGVWERCILVFTHGYALPPEG-----LTFEENLARRMHLAQEEVHRVSGRRDIFIPVCVVENSESCPRDSAGNLILPNG</Hsp_hseq>
+              <Hsp_midline>+G+ +R+I+ P     + D+   +          +SV A ++    DIV  ++RLD   R      +L  +  +F   +W   I+  TH  + PP+G      +++  + +R H+ Q+ + + +G   +  PV +VEN  +C  + AG  +LPNG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|215</Hit_id>
+          <Hit_def>@Cyanidioschyzon_merolae@_gnl|CMER|CMB146C conserved GTP-binding protein of unknown function (Nucleolar GTP-binding protein)</Hit_def>
+          <Hit_accession>215</Hit_accession>
+          <Hit_len>650</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.4242</Hsp_bit-score>
+              <Hsp_score>80</Hsp_score>
+              <Hsp_evalue>0.0392628</Hsp_evalue>
+              <Hsp_query-from>451</Hsp_query-from>
+              <Hsp_query-to>534</Hsp_query-to>
+              <Hsp_hit-from>165</Hsp_hit-from>
+              <Hsp_hit-to>244</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>45</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>84</Hsp_align-len>
+              <Hsp_qseq>DPLDFSCTIMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGLLPSWSDQHKNEKILKSVRAF</Hsp_qseq>
+              <Hsp_hseq>DPM--TRTLLIAGYPNVGKSSFLNCVTNA-KVDVQPYAFTTKSLFVGHMDYQYLRWQVIDTPGLLDHALDE-RNTIEMQSITAL</Hsp_hseq>
+              <Hsp_midline>DP+  + T+++ G   VGKS+ +N + +  K+    +   TK +       Q ++ +VIDTPGLL    D+ +N   ++S+ A </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|103</Hit_id>
+          <Hit_def>@Cyanidioschyzon_merolae@_gnl|CMER|CMB003C similar to GTP-binding protein</Hit_def>
+          <Hit_accession>103</Hit_accession>
+          <Hit_len>653</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.213885</Hsp_evalue>
+              <Hsp_query-from>459</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>65</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>VVLAGRPNVGKSVLFNRLVGKASSLVDPRAGCTRDVRSAYGRLVDLRFRLFDTPGL</Hsp_hseq>
+              <Hsp_midline>+++ G+  VGKS   N +  +     D     T+ V+   G +  ++ R+ DTPGL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4539</Hit_id>
+          <Hit_def>@Cyanidioschyzon_merolae@_gnl|CMER|CMT043C GTP-binding protein of Nug1 family</Hit_def>
+          <Hit_accession>4539</Hit_accession>
+          <Hit_len>548</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.3426</Hsp_bit-score>
+              <Hsp_score>72</Hsp_score>
+              <Hsp_evalue>0.41014</Hsp_evalue>
+              <Hsp_query-from>456</Hsp_query-from>
+              <Hsp_query-to>515</Hsp_query-to>
+              <Hsp_hit-from>244</Hsp_hit-from>
+              <Hsp_hit-to>301</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>61</Hsp_align-len>
+              <Hsp_qseq>SCTIMVLGKSGVGKSATINSIFDEL-KISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGLL</Hsp_qseq>
+              <Hsp_hseq>TITVGIVGKPNVGKSSLLNALCREQGAVATGARPGITKTLQEVR---LDSNIRLLDSPGVV</Hsp_hseq>
+              <Hsp_midline>+ T+ ++GK  VGKS+ +N++  E   ++T A    TK +Q++        +R++D+PG++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5014</Statistics_db-num>
+          <Statistics_db-len>2521725</Statistics_db-len>
+          <Statistics_hsp-len>99</Statistics_hsp-len>
+          <Statistics_eff-space>2005085610</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

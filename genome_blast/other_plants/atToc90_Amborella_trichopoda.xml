@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/other_plant_genomes/all/Amborella_trichopoda</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|7457</Hit_id>
+          <Hit_def>@Amborella_trichopoda@ evm_15.model.AmTr_v1.0_scaffold00036.127 EVM_15_evm_15.TU.AmTr_v1.0_scaffold00036.127   AmTr_v1.0_scaffold00036:4818376-4824545(-)</Hit_def>
+          <Hit_accession>7457</Hit_accession>
+          <Hit_len>786</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>695.656</Hsp_bit-score>
+              <Hsp_score>1794</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>773</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>774</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>372</Hsp_identity>
+              <Hsp_positive>512</Hsp_positive>
+              <Hsp_gaps>33</Hsp_gaps>
+              <Hsp_align-len>790</Hsp_align-len>
+              <Hsp_qseq>MKGFKDWVFALSNSMASSRPLLGSDPFFRDP----HQEQDNHSQAPAAPQPV-TLSEPPCS---TSSDLEILPPLSQQQVPLESLYQSSIDLNGKKHNPLAKIGGLQVQFLRLVQRFGQSQNNILVSKVLYRVHLAMLIRAEESELKNVKLRQDRAKALAREQESSGI--PELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQLITEIFGAAIWLNTILVMTHSA-ATTEGRNGQSVNYESYVGQRMDVVQHYIHQAVSDTKLENPVLLVENHPSCKKNLAGEYVLPNGVVWKPQFMFLCVCTKVLGDVQSLLRFRDSIGLGQPSSTRTASLPHLLSVFLRRRLSSGA------DETEKEIDKLLNLDLEEEDEYDQLPTIRILGKSRFEKLSKSQKKEYLDELDYRETLYLKKQLKEECRRRRDEKLVEEENLEDTEQRDQAAVPLPDMAGPDSFDSDFPAHRYRCVSAGDQWLVRPVYDPQGWDRDVGFDGINIETAAKINRNLFASATGQVSRDKQRFTIQSETNAAYTRNFREQTFSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDVGVGLTSFGGKYYVGGKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGLQTQFRPARGTNIDVNINMNNRKMGKINVKLNSSEHWEIALISALTMFKALVRR</Hsp_qseq>
+              <Hsp_hseq>MKTFKDWISW--KSLLSARPLSGSDSFLEEDETRRHEDVDVAGTPPGSSGTASTTSACPANGIQSSASCPYFPP-----VVMEDCHSSPHYPDGKSSDILEKLDALQVNFLRLVHRLGQSSQNLVVAQVLYRLELTKQIRASDSNARSVGLSIDRVKTIAREQETAGQGGSELDFSINVLLLGKTGVGKSATINSIFNQAKVFTDAFQPATEEIQEIIGTVMGVKVKVIDTPGLLP-SPSDQRLNRRNMHTVKRFIRNSPPDIVLYFDRLDVINMGYSDVPLLKLITETFGSAIWFNTIIVLTHSSSALPEGPDGTSLGYEAFVTQCKNIMQHHIHQAAADMRLRNPLLLVENHPLCIRNREREKVLPNGQAWRSQFLLLCISSKVLNDANALLKFQDVVH-GKQNNQRRPSLPHLLSFFLQPCSAPNASDLMLIDEVGEEVSYL-----ESEDEYDKLPPIRILSKGQFKRLSKAQKEDYLDELDYRETLYLKKQLKEELGKCRDGSSINGKDGHNEGEPPPDTVPLPDMAMPLSFDSACPTYRYRSLEYGNKWLVRPVLDPHGWDQEIGFDGVNLEASFPIVKNLNTSLNSQLSKDKQDCNFQMECAATHI-DEKGPSYYTGLDVQNLGRGLACTARGHMQLKTHKYNKAGCGFLMGSIGSNVYVGAKLEDT-IAKKRWKLVVDTGGMASQGDMTFGGRLEGSLRGKDYPVRRDQASVSLTMLSCNKEVLLEGGLLVRFRPARGTNMAIQANVNHKKSGQICIKANSSEHIQIALIAIIPIVRALFRR</Hsp_hseq>
+              <Hsp_midline>MK FKDW+     S+ S+RPL GSD F  +     H++ D     P +     T S  P +   +S+     PP     V +E  + S    +GK  + L K+  LQV FLRLV R GQS  N++V++VLYR+ L   IRA +S  ++V L  DR K +AREQE++G    ELDFS+ +L+LGKTGVGKSATINSIF Q K  TDAF+P T+ I+E++GTV GVKV  IDTPG  P S S  R NR+ + ++KR+++  PPD+VLY DRLD+I+M YSD  LL+LITE FG+AIW NTI+V+THS+ A  EG +G S+ YE++V Q  +++QH+IHQA +D +L NP+LLVENHP C +N   E VLPNG  W+ QF+ LC+ +KVL D  +LL+F+D +  G+ ++ R  SLPHLLS FL+   +  A      DE  +E+  L     E EDEYD+LP IRIL K +F++LSK+QK++YLDELDYRETLYLKKQLKEE  + RD   +  ++  +  +     VPLPDMA P SFDS  P +RYR +  G++WLVRPV DP GWD+++GFDG+N+E +  I +NL  S   Q+S+DKQ    Q E  A +  + +  ++   +D+Q+ G  L  + +G  +L+T K+N    G  + S G   YVG KLEDT +  KR KL  + G M   G    GG  E  +RG+DYPVR +Q  +++T LS  +E++L  GL  +FRPARGTN+ +  N+N++K G+I +K NSSEH +IALI+ + + +AL RR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|12687</Hit_id>
+          <Hit_def>@Amborella_trichopoda@ evm_15.model.AmTr_v1.0_scaffold00072.35 EVM_15_evm_15.TU.AmTr_v1.0_scaffold00072.35   AmTr_v1.0_scaffold00072:1761957-1764089(+)</Hit_def>
+          <Hit_accession>12687</Hit_accession>
+          <Hit_len>710</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>670.618</Hsp_bit-score>
+              <Hsp_score>1729</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>74</Hsp_query-from>
+              <Hsp_query-to>777</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>703</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>352</Hsp_identity>
+              <Hsp_positive>482</Hsp_positive>
+              <Hsp_gaps>19</Hsp_gaps>
+              <Hsp_align-len>713</Hsp_align-len>
+              <Hsp_qseq>LESLYQSSIDLNGKKHNPLAKIGGLQVQFLRLVQRFGQSQNNILVSKVLYRVHLAMLIRAEESELKNVKLRQDRAKALAREQESSGI--PELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQLITEIFGAAIWLNTILVMTHSA-ATTEGRNGQSVNYESYVGQRMDVVQHYIHQAVSDTKLENPVLLVENHPSCKKNLAGEYVLPNGVVWKPQFMFLCVCTKVLGDVQSLLRFRDSIGLGQPSSTRTASLPHLLSVFLRRRLSSGA------DETEKEIDKLLNLDLEEEDEYDQLPTIRILGKSRFEKLSKSQKKEYLDELDYRETLYLKKQLKEECRRRRDEKLVEEENLEDTEQRDQAAVPLPDMAGPDSFDSDFPAHRYRCVSAGDQWLVRPVYDPQGWDRDVGFDGINIETAAKINRNLFASATGQVSRDKQRFTIQSETNAAYTRNFREQTFSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDVGVGLTSFGGKYYVGGKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGLQTQFRPARGTNIDVNINMNNRKMGKINVKLNSSEHWEIALISALTMFKALVRRSKTE</Hsp_qseq>
+              <Hsp_hseq>MEDCHSSHHYPDGKSSDILEKLDALQVNFLRLVHRLGQSSQNLVVAQVLYRLELTKQIRASNSNAKRVGLSIDRAKAIAREQETAGQGGSELDFSIKVLLLGKTGVGKSATINSIFNQAKVFTDAFQPATEKIEEIAGTVMGVKVKVIDTPGLLP-SPSDQRLNRRTLRTVERFIRKSLPDIVLYFDRLDIINMGYSDFPLLKLITETFGSAIWFNTTIVLTHSSSALPEGPDGTSLVYEAFVAQCKNIMQHHIHQAAADTRLRNPLLLVENHPLCVRNREGEKVLPNGQAWRSQFLLLCISSKVLNDANALLKFQDV--HGKQNNQRRPSLPHLLSSFLQPCSAPNASDLMLIDEVGEEVT-----DLESEDEYDKLPPIRILSKGQFKRLSKAQKEDYLDELDYQETLYLKKQLKEELRKCRDGLSINDTDGHNEGEPPPDTLPLPDMAMPLSFDSACPTYRYRFLEYSNKWLVRPVLDPHGWDQEIGFNGVNLEASFPIEKNLNTSLNSQLSKDKQDCNFQMECAATHIKE-KGPSYYTGLDVQNLGRGLACTARGHMQLKTHKYNKAGCGFLMGSIGSNVFVGAKLEDT-IAKKRWKLVVDTGVMASQGNMTFGGRLEASLRGKDYPVRRDQASVSLTMLSCNKEVLLEGGLSVQFRPARGTNMAIQANVNHKKSGQICVKGNSSEHIQIASIAIIPIVRALFRRREIQ</Hsp_hseq>
+              <Hsp_midline>+E  + S    +GK  + L K+  LQV FLRLV R GQS  N++V++VLYR+ L   IRA  S  K V L  DRAKA+AREQE++G    ELDFS+++L+LGKTGVGKSATINSIF Q K  TDAF+P T++IEE+ GTV GVKV  IDTPG  P S S  R NR+ L +++R+++K  PD+VLY DRLD+I+M YSDF LL+LITE FG+AIW NT +V+THS+ A  EG +G S+ YE++V Q  +++QH+IHQA +DT+L NP+LLVENHP C +N  GE VLPNG  W+ QF+ LC+ +KVL D  +LL+F+D    G+ ++ R  SLPHLLS FL+   +  A      DE  +E+      DLE EDEYD+LP IRIL K +F++LSK+QK++YLDELDY+ETLYLKKQLKEE R+ RD   + + +  +  +     +PLPDMA P SFDS  P +RYR +   ++WLVRPV DP GWD+++GF+G+N+E +  I +NL  S   Q+S+DKQ    Q E  A + +  +  ++   +D+Q+ G  L  + +G  +L+T K+N    G  + S G   +VG KLEDT +  KR KL  + G M   G    GG  EA +RG+DYPVR +Q  +++T LS  +E++L  GL  QFRPARGTN+ +  N+N++K G+I VK NSSEH +IA I+ + + +AL RR + +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|8412</Hit_id>
+          <Hit_def>@Amborella_trichopoda@ evm_15.model.AmTr_v1.0_scaffold00041.111 EVM_15_evm_15.TU.AmTr_v1.0_scaffold00041.111   AmTr_v1.0_scaffold00041:2858431-2865733(+)</Hit_def>
+          <Hit_accession>8412</Hit_accession>
+          <Hit_len>1261</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>506.908</Hsp_bit-score>
+              <Hsp_score>1304</Hsp_score>
+              <Hsp_evalue>3.08445e-162</Hsp_evalue>
+              <Hsp_query-from>66</Hsp_query-from>
+              <Hsp_query-to>761</Hsp_query-to>
+              <Hsp_hit-from>539</Hsp_hit-from>
+              <Hsp_hit-to>1249</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>291</Hsp_identity>
+              <Hsp_positive>419</Hsp_positive>
+              <Hsp_gaps>41</Hsp_gaps>
+              <Hsp_align-len>724</Hsp_align-len>
+              <Hsp_qseq>PLSQQQVPLESLYQSSIDLNGKKHNPLAKIGGLQVQFLRLVQRFGQSQNNILVSKVLYRVHLAMLIRAEESELKNVKLRQDRAKALAREQESSGIPELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQLITEIFGAAIWLNTILVMTHS-AATTEGRNGQSVNYESYVGQRMDVVQHYIHQAVSDTKLENPVLLVENHPSCKKNLAGEYVLPNGVVWKPQFMFLCVCTKVLGDVQSLLRFRDSIGLGQPSSTRT-------------ASLPHLLSVFLRRRLSSGADETEKEIDKLLNLDLEEEDEYDQLPTIRILGKSRFEKLSKSQKKEYLDELDYRETLYLKKQLKEECRRRRDEKLVEEENLED------------TEQRDQAAVPLPDMAGPDSFDSDFPAHRYRCVSAGDQWLVRPVYDPQGWDRDVGFDGINIETAAKINRNLFASATGQVSRDKQRFTIQSETNAAYTRNFREQTFSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDVGVGLTSFGGKYYVGGKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGLQTQFRPARGTNIDVNINMNNRKMGKINVKLNS--SEHWEIALI</Hsp_qseq>
+              <Hsp_hseq>PLRQSQL-VEEVANGETDENSETREKLQMI---RVKFLRLAHRLGQTPHNSVVAQVLYRLGLAEQLRRRRDTNRAGAFSFDTASAMAEQLEAAGQEPLDFSCTIMVLGKSGVGKSATINSIFDEVKFSTDAFELGTKKVQDIVGTVQGIKVRVIDTPGLLP-SFADQRQNEKTLQSVKRFIKKTPPDIVLYLDRLDMQSRDYGDLPLLRTITEIFGPAIWFNAIVVLTHAGSAPPDGPNGSPLSYEMFVAQRSHVVQQAIRQAAGDMRLMNPVSLVENHSACRTNRAGQRVLPNGQVWKPQLLLLSFASKILAEANTLLKLQD-VPNERPFSGRSRVPPLPFLLSSLLQSRPQLR---LPEEQYSDEDAFDEDIDESSHSD--DGSDYDNLPPFKRLTQNHLAKFSKEQKKAYYEELDYREKLFIKKQLKEEKKRRKILKKM-ASSVEDWSSEYNESTEEESSSAESVPVTIPDVTLPASFDSDNPTHRYNCLDLPNQWLVRPVLEVHGWDRDVGYEGLNVERLFVVKNKIPISVSGQITKDKKETNLQMECTGSL-KHGEGKSTSLGFDAQTVGKEVAYTLRSDTRFANFRYNKTAAGLSVALFGDAITAGVKLEDKLLVKKWFTVVMTGGAMVGRGDVAYGGSLEATLRDKDYPLGRFLSTLGLSVMDWHGDLAIGCNLQTQFPVGRWFNMIARGNLNNRGAGQYQVSTDAFFGEKTEDAMV</Hsp_hseq>
+              <Hsp_midline>PL Q Q+ +E +     D N +    L  I   +V+FLRL  R GQ+ +N +V++VLYR+ LA  +R      +      D A A+A + E++G   LDFS  I+VLGK+GVGKSATINSIF + K  TDAF  GT ++++++GTV G+KV  IDTPG  P S +  R+N K L S+KR++KK PPD+VLYLDRLDM    Y D  LL+ ITEIFG AIW N I+V+TH+ +A  +G NG  ++YE +V QR  VVQ  I QA  D +L NPV LVENH +C+ N AG+ VLPNG VWKPQ + L   +K+L +  +LL+ +D +   +P S R+              S P L    L     S  D  +++ID+  + D  +  +YD LP  + L ++   K SK QKK Y +ELDYRE L++KKQLKEE +RR+  K +   ++ED            +   +   V +PD+  P SFDSD P HRY C+   +QWLVRPV +  GWDRDVG++G+N+E    +   +  S +GQ+++DK+   +Q E   +  ++   ++ S+  D Q+ G+++ Y+ +  T+   F++N T  G+ +  FG     G KLED LLV K   +    G M G G  A GGS EA +R +DYP+      L ++ + +  +L +   LQTQF   R  N+    N+NNR  G+  V  ++   E  E A++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|8792</Hit_id>
+          <Hit_def>@Amborella_trichopoda@ evm_15.model.AmTr_v1.0_scaffold00045.239 EVM_15_evm_15.TU.AmTr_v1.0_scaffold00045.239   AmTr_v1.0_scaffold00045:4019320-4023603(-)</Hit_def>
+          <Hit_accession>8792</Hit_accession>
+          <Hit_len>1427</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>493.041</Hsp_bit-score>
+              <Hsp_score>1268</Hsp_score>
+              <Hsp_evalue>1.20218e-155</Hsp_evalue>
+              <Hsp_query-from>51</Hsp_query-from>
+              <Hsp_query-to>772</Hsp_query-to>
+              <Hsp_hit-from>671</Hsp_hit-from>
+              <Hsp_hit-to>1415</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>290</Hsp_identity>
+              <Hsp_positive>419</Hsp_positive>
+              <Hsp_gaps>31</Hsp_gaps>
+              <Hsp_align-len>749</Hsp_align-len>
+              <Hsp_qseq>SEPPCSTSSDLEILPPLSQQQVP-------LESLYQSSIDLNGKKHNPLAKIGGLQVQFLRLVQRFGQSQNNILVSKVLYRVHLAMLIRAEESELKNVKLRQDRAKALAREQESSGIPELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQLITEIFGAAIWLNTILVMTHSA-ATTEGRNGQSVNYESYVGQRMDVVQHYIHQAVSDTKLENPVLLVENHPSCKKNLAGEYVLPNGVVWKPQFMFLCVCTKVLGDVQSLLRFRDS-----IGLGQPSSTRTASLPHLLSVFLRRRLSS--GADETEKEIDKLLNLDLEEE---DEYDQLPTIRILGKSRFEKLSKSQKKEYLDELDYRETLYLKKQLKEEC--------RRRRDEKLVEEENLEDTEQRDQAA-VPLPDMAGPDSFDSDFPAHRYRCVSAGDQWLVRPVYDPQGWDRDVGFDGINIETAAKINRNLFASATGQVSRDKQRFTIQSETNAAYTRNFREQTFSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDVGVGLTSFGGKYYVGGKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGLQTQFRPARGTNIDVNINMNNRKMGKINVKLNSSEHWEIALISALTMFKALVR</Hsp_qseq>
+              <Hsp_hseq>SDPPAGLGSSMPSLRPTPRQNRPNIFTQAEVAALGDQDTTMDEEEKKLHEKIQNIRVKFLRLVHRLGHSSEDVVAAQVLYRLGLAEGIKRGWHGRRGVGL--EAAKQEAKQLETDGGSPLDFSCTILVLGKTGVGKSATINSIFGETKARTNAFEPSTPTVREINGVLNGVKVKIIDSPGLMP-SVMDQSANKKVLLSIKKFTKRCPPDIVLYVDRLDTQSRDYNDLPLLRSITSTLGASIWFNAIVALTHAACAPPDGANGAPLSYEVFVAQRSHVVQHSIRQAAGDMRLMNPVSLVENHPSCRKNREGHKVLPNGQAWRPQLLVLCYSSKILSEANALLKLQDSSPGKLFGLRIRSPPLPFLLSSLLQSRPHPKLATDQGGDNGDSDIDLDDISDSDQEGDEDEYDQLPPFKPLKKAQLAKLSKDQRKAYFEEFDYRVRLLQRRQWKEELQQIKKAKKRASAGESIVSEFPNEDYDVGPAAVPVPLPDMVLPPSFDGDNAGYRYRFLEPSSHLLSRPVLDTHGWDHDCGYDGVSLEETLAILNKFPAALSVQITKDKREFNIHLDSSVS-AKHGEHGSSMAGFDIQTVGKQLAYIFRGETRFKNFYKNRTGAGFSVTILGDTIATGLKIEDRLPIGKRLNLVGSAGGVQAGSDLACGANLEVRLREGDYPIGQDQATLGLSLMRWRGDLALGANLQSQFSIGRNTKMAARVGLNNKMTGQITIRTSSSEQVQIALFGIIPLAALLFR</Hsp_hseq>
+              <Hsp_midline>S+PP    S +  L P  +Q  P       + +L      ++ ++     KI  ++V+FLRLV R G S  +++ ++VLYR+ LA  I+      + V L  + AK  A++ E+ G   LDFS  ILVLGKTGVGKSATINSIFG+ K+ T+AF P T  + E+ G ++GVKV  ID+PG  P S      N+K+LLSIK++ K+ PPD+VLY+DRLD     Y+D  LL+ IT   GA+IW N I+ +TH+A A  +G NG  ++YE +V QR  VVQH I QA  D +L NPV LVENHPSC+KN  G  VLPNG  W+PQ + LC  +K+L +  +LL+ +DS      GL   S      L  LL      +L++  G D  + +ID     D ++E   DEYDQLP  + L K++  KLSK Q+K Y +E DYR  L  ++Q KEE         R    E +V E   ED +    A  VPLPDM  P SFD D   +RYR +      L RPV D  GWD D G+DG+++E    I     A+ + Q+++DK+ F I  +++ +  ++    +     D+Q+ G+ L Y F+G T+ + F  N T  G  +T  G     G K+ED L +GKR+ L  +AG ++     A G + E  +R  DYP+  +Q  L ++ + ++ +L L   LQ+QF   R T +   + +NN+  G+I ++ +SSE  +IAL   + +   L R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|10104</Hit_id>
+          <Hit_def>@Amborella_trichopoda@ evm_15.model.AmTr_v1.0_scaffold00056.107 EVM_15_evm_15.TU.AmTr_v1.0_scaffold00056.107   AmTr_v1.0_scaffold00056:2387752-2412981(+)</Hit_def>
+          <Hit_accession>10104</Hit_accession>
+          <Hit_len>312</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>102.449</Hsp_bit-score>
+              <Hsp_score>254</Hsp_score>
+              <Hsp_evalue>1.43101e-23</Hsp_evalue>
+              <Hsp_query-from>166</Hsp_query-from>
+              <Hsp_query-to>367</Hsp_query-to>
+              <Hsp_hit-from>37</Hsp_hit-from>
+              <Hsp_hit-to>235</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>64</Hsp_identity>
+              <Hsp_positive>105</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>207</Hsp_align-len>
+              <Hsp_qseq>SLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQLITEIFGAAIWLNTILVMTHSAATTEGRNGQSVNYESYVGQRMDVVQHYIHQA--VSDTKLEN---PVLLVENHPSCKKNLAGEYVLPNGVVWKPQFM</Hsp_qseq>
+              <Hsp_hseq>TVTILVMGKGGVGKSSTVNSLLGERVAAVSAFQSEAMRPIICSRARAGFTLNIIDTPGL----VEGGFVNEHALEIIKRFLLNKTIDILLYVDRLDGYRVDNLDRQVIKAITDSFGKGIWQRGLVVLTHAQLSPP----DGLSYDEFFSRRSEALLKVVRLGGQIRRQELEARPVPFVLVENSGRCNTNDIGEKILPNGTAWLPELV</Hsp_hseq>
+              <Hsp_midline>++ ILV+GK GVGKS+T+NS+ G+  +   AF+    R        +G  +  IDTPG           N   L  IKR++  +  D++LY+DRLD   +   D  +++ IT+ FG  IW   ++V+TH+  +        ++Y+ +  +R + +   +     +   +LE    P +LVEN   C  N  GE +LPNG  W P+ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>19637</Statistics_db-num>
+          <Statistics_db-len>7064113</Statistics_db-len>
+          <Statistics_hsp-len>103</Statistics_hsp-len>
+          <Statistics_eff-space>3478636380</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
