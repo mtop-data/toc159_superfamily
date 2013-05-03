@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Gloeobacter_violaceus_PCC_7421</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3865</Hit_id>
+          <Hit_def>@Gloeobacter_violaceus_PCC_7421@ 637461281 glr3866 hypothetical protein [Gloeobacter violaceus PCC 7421]</Hit_def>
+          <Hit_accession>3865</Hit_accession>
+          <Hit_len>296</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.00803829</Hsp_evalue>
+              <Hsp_query-from>150</Hsp_query-from>
+              <Hsp_query-to>241</Hsp_query-to>
+              <Hsp_hit-from>110</Hsp_hit-from>
+              <Hsp_hit-to>198</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>46</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>92</Hsp_align-len>
+              <Hsp_qseq>ALAREQESSGIPELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLS</Hsp_qseq>
+              <Hsp_hseq>AVAVNQRRAGRGMRPRAVRVAVIGFPNVGKSALINRLVGKRAVES-AAKPGVTRALRWV-RIADV-IDLLDSPGILPPRLNDQRAAAKLAIC</Hsp_hseq>
+              <Hsp_midline>A+A  Q  +G      ++R+ V+G   VGKSA IN + G+   E+ A +PG  R    +  ++ V +  +D+PG  P   +  R   K+ + </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4421</Hit_id>
+          <Hit_def>@Gloeobacter_violaceus_PCC_7421@ 637461839 glr4422 GTP-binding protein Era [Gloeobacter violaceus PCC 7421]</Hit_def>
+          <Hit_accession>4421</Hit_accession>
+          <Hit_len>304</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.225949</Hsp_evalue>
+              <Hsp_query-from>160</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>71</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>75</Hsp_align-len>
+              <Hsp_qseq>IPELDFSLR---ILVLGKTGVGKSATINSIFGQ------PKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFH</Hsp_qseq>
+              <Hsp_hseq>IPEAPPGFRSGFVAIVGRPNVGKSTLVNRLVGEKVAIVSPTAQTT-----RNRLRGIL-TLPTAQIILVDTPGIH</Hsp_hseq>
+              <Hsp_midline>IPE     R   + ++G+  VGKS  +N + G+      P ++T       +R+  ++ T+   ++  +DTPG H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3445</Hit_id>
+          <Hit_def>@Gloeobacter_violaceus_PCC_7421@ 637460856 glr3446 ribosome-associated GTPase [Gloeobacter violaceus PCC 7421]</Hit_def>
+          <Hit_accession>3445</Hit_accession>
+          <Hit_len>352</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>0.659392</Hsp_evalue>
+              <Hsp_query-from>169</Hsp_query-from>
+              <Hsp_query-to>227</Hsp_query-to>
+              <Hsp_hit-from>196</Hsp_hit-from>
+              <Hsp_hit-to>258</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>63</Hsp_align-len>
+              <Hsp_qseq>ILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVT----FIDTPGFHPL</Hsp_qseq>
+              <Hsp_hseq>VALLGSSGVGKSTIANRLLGNPVQAVQGVREHDSRGRHTTTARQLLQLPGGALLIDTPGMREL</Hsp_hseq>
+              <Hsp_midline>+ +LG +GVGKS   N + G P       R    R          +++      IDTPG   L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3374</Hit_id>
+          <Hit_def>@Gloeobacter_violaceus_PCC_7421@ 637460785 gll3375 hypothetical protein [Gloeobacter violaceus PCC 7421]</Hit_def>
+          <Hit_accession>3374</Hit_accession>
+          <Hit_len>535</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>1.59289</Hsp_evalue>
+              <Hsp_query-from>730</Hsp_query-from>
+              <Hsp_query-to>757</Hsp_query-to>
+              <Hsp_hit-from>88</Hsp_hit-from>
+              <Hsp_hit-to>115</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>28</Hsp_align-len>
+              <Hsp_qseq>TNIDVNINMNNRKMGKINVKLNSSEHWE</Hsp_qseq>
+              <Hsp_hseq>TPIDISPNARDRKVGGIDPRLNTLQHME</Hsp_hseq>
+              <Hsp_midline>T ID++ N  +RK+G I+ +LN+ +H E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3270</Hit_id>
+          <Hit_def>@Gloeobacter_violaceus_PCC_7421@ 637460680 glr3271 prolyl endopeptidase [Gloeobacter violaceus PCC 7421]</Hit_def>
+          <Hit_accession>3270</Hit_accession>
+          <Hit_len>703</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>2.27038</Hsp_evalue>
+              <Hsp_query-from>652</Hsp_query-from>
+              <Hsp_query-to>698</Hsp_query-to>
+              <Hsp_hit-from>303</Hsp_hit-from>
+              <Hsp_hit-to>348</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>47</Hsp_align-len>
+              <Hsp_qseq>GKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRN</Hsp_qseq>
+              <Hsp_hseq>GVIAGTFL-GERILVIATGGSPRGRVVVVEGGTFRTLVREGDWAMRD</Hsp_hseq>
+              <Hsp_midline>G +  T L G+R+ + A  G  RG      GG+F   +R  D+ +R+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4430</Statistics_db-num>
+          <Statistics_db-len>1384397</Statistics_db-len>
+          <Statistics_hsp-len>92</Statistics_hsp-len>
+          <Statistics_eff-space>684762737</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

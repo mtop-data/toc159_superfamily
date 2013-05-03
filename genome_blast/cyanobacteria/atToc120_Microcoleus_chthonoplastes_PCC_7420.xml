@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Microcoleus_chthonoplastes_PCC_7420</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1089</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5939</Hit_id>
+          <Hit_def>@Microcoleus_chthonoplastes_PCC_7420@ 647570331 MC7420_3248 GTPase, putative [Microcoleus chthonoplastes PCC 7420]</Hit_def>
+          <Hit_accession>5939</Hit_accession>
+          <Hit_len>390</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>46.595</Hsp_bit-score>
+              <Hsp_score>109</Hsp_score>
+              <Hsp_evalue>1.11555e-05</Hsp_evalue>
+              <Hsp_query-from>433</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>5</Hsp_hit-from>
+              <Hsp_hit-to>83</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>44</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>84</Hsp_align-len>
+              <Hsp_qseq>FSFDRA-SAMAEQLEAAAQDPLDFSCTIMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGF-VQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>FSVDQLLDKMSEAYEDAGKD--TGQCNVLVIGKTGVGKSTLINAIFQSRLAETG---VGYPVTQTIRRYRKKGCPITVYDTPGL</Hsp_hseq>
+              <Hsp_midline>FS D+    M+E  E A +D     C ++V+GK+GVGKS  IN+IF      T    VG    Q I  +  +G  + V DTPGL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6274</Hit_id>
+          <Hit_def>@Microcoleus_chthonoplastes_PCC_7420@ 647570666 MC7420_2511 GTPase, putative [Microcoleus chthonoplastes PCC 7420]</Hit_def>
+          <Hit_accession>6274</Hit_accession>
+          <Hit_len>634</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.0177062</Hsp_evalue>
+              <Hsp_query-from>442</Hsp_query-from>
+              <Hsp_query-to>513</Hsp_query-to>
+              <Hsp_hit-from>275</Hsp_hit-from>
+              <Hsp_hit-to>342</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>73</Hsp_align-len>
+              <Hsp_qseq>AEQLEAAAQDPLDFSCTIMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFV-QGIKVRVIDTPG</Hsp_qseq>
+              <Hsp_hseq>AEPVEAVEQKPV----SILLVGRTGSGKSSLINTLFQAERAEVDVLP-STDRIQNYHWQTPTGETLTLWDTPG</Hsp_hseq>
+              <Hsp_midline>AE +EA  Q P+    +I+++G++G GKS+ IN++F   +   D     T ++Q+       G  + + DTPG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5638</Hit_id>
+          <Hit_def>@Microcoleus_chthonoplastes_PCC_7420@ 647570027 MC7420_4408 hypothetical protein [Microcoleus chthonoplastes PCC 7420]</Hit_def>
+          <Hit_accession>5638</Hit_accession>
+          <Hit_len>306</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.157356</Hsp_evalue>
+              <Hsp_query-from>516</Hsp_query-from>
+              <Hsp_query-to>550</Hsp_query-to>
+              <Hsp_hit-from>124</Hsp_hit-from>
+              <Hsp_hit-to>158</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>35</Hsp_align-len>
+              <Hsp_qseq>PSWSDQHKNEKILKSVRAFIKKSPPDIVLYLDRLD</Hsp_qseq>
+              <Hsp_hseq>PEWSPAEPGQRIQSALRAWAKISPRPLVLFIDEID</Hsp_hseq>
+              <Hsp_midline>P WS     ++I  ++RA+ K SP  +VL++D +D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5213</Hit_id>
+          <Hit_def>@Microcoleus_chthonoplastes_PCC_7420@ 647569600 MC7420_6697 PAS fold family [Microcoleus chthonoplastes PCC 7420]</Hit_def>
+          <Hit_accession>5213</Hit_accession>
+          <Hit_len>992</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.597152</Hsp_evalue>
+              <Hsp_query-from>816</Hsp_query-from>
+              <Hsp_query-to>919</Hsp_query-to>
+              <Hsp_hit-from>434</Hsp_hit-from>
+              <Hsp_hit-to>521</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>43</Hsp_positive>
+              <Hsp_gaps>20</Hsp_gaps>
+              <Hsp_align-len>106</Hsp_align-len>
+              <Hsp_qseq>VPMPDLSLPASFDSDNPTHRYRYLDTSNQWLVRPVLETHGWDHDIGYEGVNAERLFVVKDKI--PVSFSGQVTKDKKDAHVQLELASSVKHGEGRSTSLGFDMQNA</Hsp_qseq>
+              <Hsp_hseq>VPRVCANLPKVFDTGHHVYEYRFLHQDG---------TYRWMHD---------ELKLIYDEAGNPLEMVGFWTDITENKHAELILKQQTKALQDAHQRLGFHVENS</Hsp_hseq>
+              <Hsp_midline>VP    +LP  FD+ +  + YR+L             T+ W HD          L ++ D+   P+   G  T   ++ H +L L    K  +     LGF ++N+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2761</Hit_id>
+          <Hit_def>@Microcoleus_chthonoplastes_PCC_7420@ 647567128 MC7420_5397 heme ABC exporter, ATP-binding protein CcmA, putative [Microcoleus chthonoplastes PCC 7420]</Hit_def>
+          <Hit_accession>2761</Hit_accession>
+          <Hit_len>310</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>1.09993</Hsp_evalue>
+              <Hsp_query-from>461</Hsp_query-from>
+              <Hsp_query-to>504</Hsp_query-to>
+              <Hsp_hit-from>47</Hsp_hit-from>
+              <Hsp_hit-to>90</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>VLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGI</Hsp_qseq>
+              <Hsp_hseq>LLGPNGAGKTTTINSICNLLKADSGTITINHQPVSDATKTLIGI</Hsp_hseq>
+              <Hsp_midline>+LG +G GK+ TINSI + LK  +    +  + V D    + GI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>8294</Statistics_db-num>
+          <Statistics_db-len>2339939</Statistics_db-len>
+          <Statistics_hsp-len>97</Statistics_hsp-len>
+          <Statistics_eff-space>1523137632</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

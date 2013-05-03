@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Acaryochloris_marina_MBIC11017</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc132_gi|330251427|gb|AEC06521.1| translocase of chloroplast 132 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1206</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc132_gi|330251427|gb|AEC06521.1| translocase of chloroplast 132 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1206</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1753</Hit_id>
+          <Hit_def>@Acaryochloris_marina_MBIC11017@ 641250926 AM1_1824 GTP-binding domain protein [Acaryochloris marina MBIC11017]</Hit_def>
+          <Hit_accession>1753</Hit_accession>
+          <Hit_len>428</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>0.755615</Hsp_evalue>
+              <Hsp_query-from>577</Hsp_query-from>
+              <Hsp_query-to>632</Hsp_query-to>
+              <Hsp_hit-from>50</Hsp_hit-from>
+              <Hsp_hit-to>111</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>62</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRVQDVEG---LVQG---IKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>IATFGFVSRGKSAVLNALFDEPIFPVGPLNGETQWPRSVRWSPVVAQGLSTLQIELIDTPGL</Hsp_hseq>
+              <Hsp_midline>I   G    GKSA +N++FDE  F        T+  + V     + QG   +++ +IDTPGL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2282</Hit_id>
+          <Hit_def>@Acaryochloris_marina_MBIC11017@ 641251460 AM1_2364 hypothetical protein [Acaryochloris marina MBIC11017]</Hit_def>
+          <Hit_accession>2282</Hit_accession>
+          <Hit_len>188</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>0.910257</Hsp_evalue>
+              <Hsp_query-from>441</Hsp_query-from>
+              <Hsp_query-to>505</Hsp_query-to>
+              <Hsp_hit-from>43</Hsp_hit-from>
+              <Hsp_hit-to>102</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>24</Hsp_identity>
+              <Hsp_positive>33</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>66</Hsp_align-len>
+              <Hsp_qseq>RSNPAALPPARPAGLGRASPLLE-PASRAPQQSRVNGNGSHNQFQQAEDSTTTEADEHDETREKLQ</Hsp_qseq>
+              <Hsp_hseq>KANPAALPPAQ--GLTPATPALPMPTSPAPE----NSTGDLTALESQIEFYQTQIDKRDTQIAHLQ</Hsp_hseq>
+              <Hsp_midline>++NPAALPPA+  GL  A+P L  P S AP+    N  G     +   +   T+ D+ D     LQ</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|852</Hit_id>
+          <Hit_def>@Acaryochloris_marina_MBIC11017@ 641250012 AM1_0902 hypothetical protein [Acaryochloris marina MBIC11017]</Hit_def>
+          <Hit_accession>852</Hit_accession>
+          <Hit_len>354</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.921953</Hsp_evalue>
+              <Hsp_query-from>576</Hsp_query-from>
+              <Hsp_query-to>652</Hsp_query-to>
+              <Hsp_hit-from>194</Hsp_hit-from>
+              <Hsp_hit-to>276</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>83</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRVQDVEGLVQGIKV----RVIDTPGL--LPSWSDQAKNEKILNSVKAF</Hsp_qseq>
+              <Hsp_hseq>TVALVGSSGVGKSTLTNQLMGEPLQAVQAVRADDSRGRHTTTSRQLICLPSGAILIDTPGLRELQLWTAQTGVSTTFNEIEAL</Hsp_hseq>
+              <Hsp_midline>T+ ++G SGVGKS   N +  E      A +    R +      Q I +     +IDTPGL  L  W+ Q       N ++A </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2529</Hit_id>
+          <Hit_def>@Acaryochloris_marina_MBIC11017@ 641251707 AM1_2614 GTP binding domain protein [Acaryochloris marina MBIC11017]</Hit_def>
+          <Hit_accession>2529</Hit_accession>
+          <Hit_len>291</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>1.71858</Hsp_evalue>
+              <Hsp_query-from>578</Hsp_query-from>
+              <Hsp_query-to>635</Hsp_query-to>
+              <Hsp_hit-from>127</Hsp_hit-from>
+              <Hsp_hit-to>181</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>58</Hsp_align-len>
+              <Hsp_qseq>MVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRVQDVEGLVQGIKVRVIDTPGLLPS</Hsp_qseq>
+              <Hsp_hseq>VVLGFPNVGKSALINRLLKR-RIVESARRPGVTRQLRWVRVSQDLE--LLDTPGVLPA</Hsp_hseq>
+              <Hsp_midline>+VLG   VGKSA IN +    +    A + G  R      + Q ++  ++DTPG+LP+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1657</Hit_id>
+          <Hit_def>@Acaryochloris_marina_MBIC11017@ 641250830 AM1_1728 tRNA modification GTPase TrmE [Acaryochloris marina MBIC11017]</Hit_def>
+          <Hit_accession>1657</Hit_accession>
+          <Hit_len>455</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>2.02542</Hsp_evalue>
+              <Hsp_query-from>576</Hsp_query-from>
+              <Hsp_query-to>632</Hsp_query-to>
+              <Hsp_hit-from>222</Hsp_hit-from>
+              <Hsp_hit-to>278</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>57</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRVQDVEGLVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>TVAIIGRPNVGKSSLLNAWCRCDRAIVTDLPGTTRDVVESQLVVGGIPIQVLDTAGI</Hsp_hseq>
+              <Hsp_midline>T+ ++G+  VGKS+ +N+     +         T+ V + + +V GI ++V+DT G+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>8409</Statistics_db-num>
+          <Statistics_db-len>2322323</Statistics_db-len>
+          <Statistics_hsp-len>98</Statistics_hsp-len>
+          <Statistics_eff-space>1660051028</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

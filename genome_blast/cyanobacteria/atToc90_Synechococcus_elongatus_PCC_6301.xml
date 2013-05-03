@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Synechococcus_elongatus_PCC_6301</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|397</Hit_id>
+          <Hit_def>@Synechococcus_elongatus_PCC_6301@ 637616041 syc0397_d hypothetical protein [Synechococcus elongatus PCC 6301]</Hit_def>
+          <Hit_accession>397</Hit_accession>
+          <Hit_len>614</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.4318</Hsp_bit-score>
+              <Hsp_score>93</Hsp_score>
+              <Hsp_evalue>0.00024288</Hsp_evalue>
+              <Hsp_query-from>167</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>280</Hsp_hit-from>
+              <Hsp_hit-to>337</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>35</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>59</Hsp_align-len>
+              <Hsp_qseq>LRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTV-SGVKVTFIDTPGF</Hsp_qseq>
+              <Hsp_hseq>LRFLLIGRTGAGKSSLINALFQTETAIVDCL-PSTPAIQTYDWQLDNGDRLQLLDSPGY</Hsp_hseq>
+              <Hsp_midline>LR L++G+TG GKS+ IN++F    +  D   P T  I+     + +G ++  +D+PG+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1347</Hit_id>
+          <Hit_def>@Synechococcus_elongatus_PCC_6301@ 637617012 syc1346_c GTP-binding protein Era [Synechococcus elongatus PCC 6301]</Hit_def>
+          <Hit_accession>1347</Hit_accession>
+          <Hit_len>311</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.965</Hsp_bit-score>
+              <Hsp_score>84</Hsp_score>
+              <Hsp_evalue>0.0021875</Hsp_evalue>
+              <Hsp_query-from>169</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>20</Hsp_hit-from>
+              <Hsp_hit-to>76</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>33</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>58</Hsp_align-len>
+              <Hsp_qseq>ILVLGKTGVGKSATINSIFGQPKSETDAFRPGT-DRIEEVMGTVSGVKVTFIDTPGFH</Hsp_qseq>
+              <Hsp_hseq>VALIGRPNVGKSTLMNHLVGQKIAITSPVAQTTRNRLRGVL-TTDQVQIVFVDTPGIH</Hsp_hseq>
+              <Hsp_midline>+ ++G+  VGKS  +N + GQ  + T      T +R+  V+ T   V++ F+DTPG H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1642</Hit_id>
+          <Hit_def>@Synechococcus_elongatus_PCC_6301@ 637617320 syc1641_d S-adenosylmethionine synthetase [Synechococcus elongatus PCC 6301]</Hit_def>
+          <Hit_accession>1642</Hit_accession>
+          <Hit_len>406</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.21499</Hsp_evalue>
+              <Hsp_query-from>646</Hsp_query-from>
+              <Hsp_query-to>720</Hsp_query-to>
+              <Hsp_hit-from>239</Hsp_hit-from>
+              <Hsp_hit-to>313</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>75</Hsp_align-len>
+              <Hsp_qseq>GKYYVGGKLEDTLLVGKRVKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGL</Hsp_qseq>
+              <Hsp_hseq>GKFVIGGPQGDAGLTGRKIIVDTYGGYSRHGGGAFSGKDPTKVDRSAAYACRYVAKNIVAAGLAEKCEVQLSYAI</Hsp_hseq>
+              <Hsp_midline>GK+ +GG   D  L G+++ +    G  R  G   +G       R   Y  R     +    L+ K E+ L+Y +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|842</Hit_id>
+          <Hit_def>@Synechococcus_elongatus_PCC_6301@ 637616493 syc0842_c hypothetical protein [Synechococcus elongatus PCC 6301]</Hit_def>
+          <Hit_accession>842</Hit_accession>
+          <Hit_len>539</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.743846</Hsp_evalue>
+              <Hsp_query-from>523</Hsp_query-from>
+              <Hsp_query-to>591</Hsp_query-to>
+              <Hsp_hit-from>232</Hsp_hit-from>
+              <Hsp_hit-to>302</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>71</Hsp_align-len>
+              <Hsp_qseq>DFPAHRYRCVSAGDQWLVRPVYDPQGWDRDVGFDGINIETAAKINRNLFASATGQVSRDKQ--RFTIQSET</Hsp_qseq>
+              <Hsp_hseq>DWPVLQSASTQAGDAWGLPPVAEAACADFVTQSEGIQIQGKALTESETTASTSPQPPRPRQELRSQVPAET</Hsp_hseq>
+              <Hsp_midline>D+P  +     AGD W + PV +    D     +GI I+  A       AS + Q  R +Q  R  + +ET</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2383</Hit_id>
+          <Hit_def>@Synechococcus_elongatus_PCC_6301@ 637618073 syc2382_d hypothetical protein [Synechococcus elongatus PCC 6301]</Hit_def>
+          <Hit_accession>2383</Hit_accession>
+          <Hit_len>513</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>0.919677</Hsp_evalue>
+              <Hsp_query-from>167</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>127</Hsp_hit-from>
+              <Hsp_hit-to>186</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>60</Hsp_align-len>
+              <Hsp_qseq>LRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGV--KVTFIDTPGF</Hsp_qseq>
+              <Hsp_hseq>LRVVIFGTGSAGKTSLINALLGRIVGKVEATMGSTEEGRTYRLGLRGVGRDILITDTPGI</Hsp_hseq>
+              <Hsp_midline>LR+++ G    GK++ IN++ G+   + +A    T+        + GV   +   DTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2527</Statistics_db-num>
+          <Statistics_db-len>785903</Statistics_db-len>
+          <Statistics_hsp-len>88</Statistics_hsp-len>
+          <Statistics_eff-space>397286535</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

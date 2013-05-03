@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Thermosynechococcus_elongatus_BP_1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1289</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637313912 tlr1290 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>1289</Hit_accession>
+          <Hit_len>462</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.965</Hsp_bit-score>
+              <Hsp_score>84</Hsp_score>
+              <Hsp_evalue>0.00281981</Hsp_evalue>
+              <Hsp_query-from>167</Hsp_query-from>
+              <Hsp_query-to>274</Hsp_query-to>
+              <Hsp_hit-from>73</Hsp_hit-from>
+              <Hsp_hit-to>176</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>51</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>112</Hsp_align-len>
+              <Hsp_qseq>LRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVS----GVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQ</Hsp_qseq>
+              <Hsp_hseq>VQIAVFGMVGRGKSSLLNALLGEPYFATGPIHGVTQEEASALWQISEAQRGNPIRLIDTPGLDEVNGAAREQ-------LARQVAAQ-ADLILFVIAGDLTRLEYQALSELR</Hsp_hseq>
+              <Hsp_midline>++I V G  G GKS+ +N++ G+P   T      T      +  +S    G  +  IDTPG   ++ ++  +       + R V  +  D++L++   D+  + Y   S L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|821</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637313439 tlr0823 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>821</Hit_accession>
+          <Hit_len>358</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.039</Hsp_bit-score>
+              <Hsp_score>79</Hsp_score>
+              <Hsp_evalue>0.00928073</Hsp_evalue>
+              <Hsp_query-from>166</Hsp_query-from>
+              <Hsp_query-to>230</Hsp_query-to>
+              <Hsp_hit-from>46</Hsp_hit-from>
+              <Hsp_hit-to>110</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>65</Hsp_align-len>
+              <Hsp_qseq>SLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSS</Hsp_qseq>
+              <Hsp_hseq>AWHIVVLGQVGRGKSALLNALYGEAIFPVGAIHGTTQWPRTVRWHCQDQIVDLTDTPGLDEVAGS</Hsp_hseq>
+              <Hsp_midline>+  I+VLG+ G GKSA +N+++G+      A    T     V        V   DTPG   ++ S</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1506</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637314132 tlr1507 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>1506</Hit_accession>
+          <Hit_len>285</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>34.6538</Hsp_bit-score>
+              <Hsp_score>78</Hsp_score>
+              <Hsp_evalue>0.0128713</Hsp_evalue>
+              <Hsp_query-from>166</Hsp_query-from>
+              <Hsp_query-to>228</Hsp_query-to>
+              <Hsp_hit-from>122</Hsp_hit-from>
+              <Hsp_hit-to>181</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>33</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>63</Hsp_align-len>
+              <Hsp_qseq>SLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLS</Hsp_qseq>
+              <Hsp_hseq>AVRAVVLGFPNVGKSALINRLLQQRVVESAA-RPGVTR--QLRWVRLSPVLELLDAPGVLPMN</Hsp_hseq>
+              <Hsp_midline>++R +VLG   VGKSA IN +  Q   E+ A RPG  R  ++        +  +D PG  P++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|55</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637312658 tlr0056 GTP-binding protein Era [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>55</Hit_accession>
+          <Hit_len>307</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>34.2686</Hsp_bit-score>
+              <Hsp_score>77</Hsp_score>
+              <Hsp_evalue>0.0171006</Hsp_evalue>
+              <Hsp_query-from>169</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>19</Hsp_hit-from>
+              <Hsp_hit-to>75</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>58</Hsp_align-len>
+              <Hsp_qseq>ILVLGKTGVGKSATINSIFGQPKSETDAFRPGT-DRIEEVMGTVSGVKVTFIDTPGFH</Hsp_qseq>
+              <Hsp_hseq>VALVGRPNVGKSTLFNHLLGQKVAITSPVAQTTRNRLRGILTTATA-QFIFVDTPGIH</Hsp_hseq>
+              <Hsp_midline>+ ++G+  VGKS   N + GQ  + T      T +R+  ++ T +  +  F+DTPG H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|862</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637313480 tlr0863 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>862</Hit_accession>
+          <Hit_len>122</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>0.321241</Hsp_evalue>
+              <Hsp_query-from>403</Hsp_query-from>
+              <Hsp_query-to>443</Hsp_query-to>
+              <Hsp_hit-from>34</Hsp_hit-from>
+              <Hsp_hit-to>72</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>41</Hsp_align-len>
+              <Hsp_qseq>PHLLSVFLRRRLSSGADETEKEIDKLLNLDLEEEDEYDQLP</Hsp_qseq>
+              <Hsp_hseq>PNLLTVILPQSLERQPRESRQQLDKVMH--LVEKPENDHLP</Hsp_hseq>
+              <Hsp_midline>P+LL+V L + L     E+ +++DK+++  L E+ E D LP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2476</Statistics_db-num>
+          <Statistics_db-len>774534</Statistics_db-len>
+          <Statistics_hsp-len>88</Statistics_hsp-len>
+          <Statistics_eff-space>392435430</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

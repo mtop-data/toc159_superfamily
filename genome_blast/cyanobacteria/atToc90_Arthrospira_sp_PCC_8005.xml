@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Arthrospira_sp_PCC_8005</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5033</Hit_id>
+          <Hit_def>@Arthrospira_sp_PCC_8005@ 648390288 APCC8_010100026183 small GTP-binding protein domain-containing protein [Arthrospira sp. PCC 8005]</Hit_def>
+          <Hit_accession>5033</Hit_accession>
+          <Hit_len>639</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>48.521</Hsp_bit-score>
+              <Hsp_score>114</Hsp_score>
+              <Hsp_evalue>1.61538e-06</Hsp_evalue>
+              <Hsp_query-from>169</Hsp_query-from>
+              <Hsp_query-to>279</Hsp_query-to>
+              <Hsp_hit-from>299</Hsp_hit-from>
+              <Hsp_hit-to>413</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>59</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>121</Hsp_align-len>
+              <Hsp_qseq>ILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEV-MGTVSGVKVTFIDTPGFHPLSSSSTR-------KNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYS--DFSLLQLITEI</Hsp_qseq>
+              <Hsp_hseq>ILLVGRTGSGKSSLINTLFQANLAEVDVL-PSTDRIKNYHWSTPTGESLNLWDTPGYEQVKREDLRELVVSEAQTADLLLLVTPAL-----DPALQMDRDFLQDMRVEVPDLKAIAIVTQV</Hsp_hseq>
+              <Hsp_midline>IL++G+TG GKS+ IN++F    +E D   P TDRI+     T +G  +   DTPG+  +     R       +   +LL +   +     D  L +DR  + DMR    D   + ++T++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|488</Hit_id>
+          <Hit_def>@Arthrospira_sp_PCC_8005@ 648385706 APCC8_010100002544 putative GTP-binding protein [Arthrospira sp. PCC 8005]</Hit_def>
+          <Hit_accession>488</Hit_accession>
+          <Hit_len>509</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>37.3502</Hsp_bit-score>
+              <Hsp_score>85</Hsp_score>
+              <Hsp_evalue>0.00453635</Hsp_evalue>
+              <Hsp_query-from>154</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>385</Hsp_hit-from>
+              <Hsp_hit-to>449</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>72</Hsp_align-len>
+              <Hsp_qseq>EQESSGIPELDFSLRILVLGKTGVGKSATINSIFGQPKSETDAFRPGTDRIEEVMGTVS-GVKVTFIDTPGF</Hsp_qseq>
+              <Hsp_hseq>EQETKLPP------KVAVIGKAGVGKTTTINNLFNA-ELKTSPTTVGTTQAQTKEFTLSTGGTLTVIDMPGY</Hsp_hseq>
+              <Hsp_midline>EQE+   P      ++ V+GK GVGK+ TIN++F   + +T     GT + +    T+S G  +T ID PG+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5631</Hit_id>
+          <Hit_def>@Arthrospira_sp_PCC_8005@ 648390889 APCC8_010100029309 GTP-binding protein Era [Arthrospira sp. PCC 8005]</Hit_def>
+          <Hit_accession>5631</Hit_accession>
+          <Hit_len>307</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.00543141</Hsp_evalue>
+              <Hsp_query-from>171</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>20</Hsp_hit-from>
+              <Hsp_hit-to>74</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>VLGKTGVGKSATINSIFGQPKSETDAFRPGT-DRIEEVMGTVSGVKVTFIDTPGFH</Hsp_qseq>
+              <Hsp_hseq>IIGRPNVGKSTLMNKLVGQKIAITSPIAQTTRNRLRGILTTESA-QIIFVDTPGIH</Hsp_hseq>
+              <Hsp_midline>++G+  VGKS  +N + GQ  + T      T +R+  ++ T S  ++ F+DTPG H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|648</Hit_id>
+          <Hit_def>@Arthrospira_sp_PCC_8005@ 648385866 APCC8_010100003414 small GTP-binding protein [Arthrospira sp. PCC 8005]</Hit_def>
+          <Hit_accession>648</Hit_accession>
+          <Hit_len>465</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.3426</Hsp_bit-score>
+              <Hsp_score>72</Hsp_score>
+              <Hsp_evalue>0.173877</Hsp_evalue>
+              <Hsp_query-from>138</Hsp_query-from>
+              <Hsp_query-to>274</Hsp_query-to>
+              <Hsp_hit-from>34</Hsp_hit-from>
+              <Hsp_hit-to>176</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>67</Hsp_positive>
+              <Hsp_gaps>26</Hsp_gaps>
+              <Hsp_align-len>153</Hsp_align-len>
+              <Hsp_qseq>LKNVKLRQDRAKALAREQESSGIPEL-----DFSLRILVLGKTGVGKSATINSIFGQPK---------SETDAFRPGTDRIEEVMGTVSG--VKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQ</Hsp_qseq>
+              <Hsp_hseq>VKNLDLTSSERQGL--ESDLSGLQQMLDKLEHTSIQIAVFGMVGRGKSSILNALLGQTVFATGPTHGITRTTEAKPWQVEGENPTGAMSYRISQVELIDTPGIDEVDGQTREQ-------MARQVAEK-ADLLLFVIAGDITQVEYQALSWLR</Hsp_hseq>
+              <Hsp_midline>+KN+ L     + L  E + SG+ ++       S++I V G  G GKS+ +N++ GQ           + T   +P     E   G +S    +V  IDTPG   +   +  +       + R V ++  D++L++   D+  + Y   S L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3963</Hit_id>
+          <Hit_def>@Arthrospira_sp_PCC_8005@ 648389213 APCC8_010100020611 small GTP-binding protein domain-containing protein [Arthrospira sp. PCC 8005]</Hit_def>
+          <Hit_accession>3963</Hit_accession>
+          <Hit_len>451</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.258034</Hsp_evalue>
+              <Hsp_query-from>167</Hsp_query-from>
+              <Hsp_query-to>274</Hsp_query-to>
+              <Hsp_hit-from>62</Hsp_hit-from>
+              <Hsp_hit-to>169</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>31</Hsp_identity>
+              <Hsp_positive>49</Hsp_positive>
+              <Hsp_gaps>28</Hsp_gaps>
+              <Hsp_align-len>122</Hsp_align-len>
+              <Hsp_qseq>LRILVLGKTGVGKSATINSIFGQ--------------PKSETDAFRPGTDRIEEVMGTVSGVKVTFIDTPGFHPLSSSSTRKNRKILLSIKRYVKKRPPDVVLYLDRLDMIDMRYSDFSLLQ</Hsp_qseq>
+              <Hsp_hseq>IRIAAFGLVSRGKSAVLNALLGQRVLQTGPTHGVTQWPRSVRWTVRP------EEIREVEPIDVELIDTPGLDEVAG-------QIRGEMAREV-SRQADLILFVVSGDLTRTEYEAIAELK</Hsp_hseq>
+              <Hsp_midline>+RI   G    GKSA +N++ GQ              P+S     RP      E +  V  + V  IDTPG   ++        +I   + R V  R  D++L++   D+    Y   + L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5675</Statistics_db-num>
+          <Statistics_db-len>1638783</Statistics_db-len>
+          <Statistics_hsp-len>92</Statistics_hsp-len>
+          <Statistics_eff-space>782794783</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

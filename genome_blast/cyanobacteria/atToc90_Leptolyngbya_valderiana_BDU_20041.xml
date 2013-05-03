@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/selection/Leptolyngbya_valderiana_BDU_20041</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</BlastOutput_query-def>
+  <BlastOutput_query-len>793</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Toc90_gi|75291915|sp|Q6S5G3.1|TOC90_ARATH RecName: Full=Translocase of chloroplast 90, chloroplastic; Short=AtToc90; AltName: Full=90 kDa chloroplast outer envelope protein; AltName: Full=Plastid protein import 4</Iteration_query-def>
+      <Iteration_query-len>793</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3</Hit_id>
+          <Hit_def>@Leptolyngbya_valderiana_BDU_20041@ Leptolyngbya_valderiana_BDU_20041 641057542 LVAL_00041 pyrimidine regulatory protein PyrR [Leptolyngbya valderiana BDU 20041]</Hit_def>
+          <Hit_accession>3</Hit_accession>
+          <Hit_len>105</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>0.066529</Hsp_evalue>
+              <Hsp_query-from>458</Hsp_query-from>
+              <Hsp_query-to>483</Hsp_query-to>
+              <Hsp_hit-from>76</Hsp_hit-from>
+              <Hsp_hit-to>101</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>26</Hsp_align-len>
+              <Hsp_qseq>KSQKKEYLDELDYRETLYLKKQLKEE</Hsp_qseq>
+              <Hsp_hseq>EEQVKVYLKNWDGRDTVELLKPLDEE</Hsp_hseq>
+              <Hsp_midline>+ Q K YL   D R+T+ L K L EE</Hsp_midline>
+            </Hsp>
+            <Hsp>
+              <Hsp_num>2</Hsp_num>
+              <Hsp_bit-score>16.1642</Hsp_bit-score>
+              <Hsp_score>30</Hsp_score>
+              <Hsp_evalue>9.844</Hsp_evalue>
+              <Hsp_query-from>61</Hsp_query-from>
+              <Hsp_query-to>72</Hsp_query-to>
+              <Hsp_hit-from>92</Hsp_hit-from>
+              <Hsp_hit-to>103</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>5</Hsp_identity>
+              <Hsp_positive>9</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>12</Hsp_align-len>
+              <Hsp_qseq>LEILPPLSQQQV</Hsp_qseq>
+              <Hsp_hseq>VELLKPLDEEDV</Hsp_hseq>
+              <Hsp_midline>+E+L PL ++ V</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4</Hit_id>
+          <Hit_def>@Leptolyngbya_valderiana_BDU_20041@ Leptolyngbya_valderiana_BDU_20041 641057543 LVAL_00016 hypothetical protein [Leptolyngbya valderiana BDU 20041]</Hit_def>
+          <Hit_accession>4</Hit_accession>
+          <Hit_len>111</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>21.1718</Hsp_bit-score>
+              <Hsp_score>43</Hsp_score>
+              <Hsp_evalue>0.201328</Hsp_evalue>
+              <Hsp_query-from>695</Hsp_query-from>
+              <Hsp_query-to>710</Hsp_query-to>
+              <Hsp_hit-from>82</Hsp_hit-from>
+              <Hsp_hit-to>97</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>11</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>16</Hsp_align-len>
+              <Hsp_qseq>PVRNEQIGLTMTALSF</Hsp_qseq>
+              <Hsp_hseq>PVYNELVGLRFRSLSY</Hsp_hseq>
+              <Hsp_midline>PV NE +GL   +LS+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|7</Hit_id>
+          <Hit_def>@Leptolyngbya_valderiana_BDU_20041@ Leptolyngbya_valderiana_BDU_20041 641057549 LVAL_00031 hypothetical protein [Leptolyngbya valderiana BDU 20041]</Hit_def>
+          <Hit_accession>7</Hit_accession>
+          <Hit_len>170</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>21.1718</Hsp_bit-score>
+              <Hsp_score>43</Hsp_score>
+              <Hsp_evalue>0.269742</Hsp_evalue>
+              <Hsp_query-from>461</Hsp_query-from>
+              <Hsp_query-to>545</Hsp_query-to>
+              <Hsp_hit-from>51</Hsp_hit-from>
+              <Hsp_hit-to>154</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>19</Hsp_gaps>
+              <Hsp_align-len>104</Hsp_align-len>
+              <Hsp_qseq>KKEYLDELDYRETLYLKKQLKEECRRRRD-------EKLVEEENLED--------TEQRDQAAVPL----PDMAGPDSFDSDFPAHRYRCVSAGDQWLVRPVYD</Hsp_qseq>
+              <Hsp_hseq>ERALLIEADLRSTADQRTTLREANLREADLSYAHLNEAILEGANLEGAKLCRANLSSEAGTDALPTDLSNANLRGADLSYADFSGAILRNANLRDADLTRTVFD</Hsp_hseq>
+              <Hsp_midline>++  L E D R T   +  L+E   R  D       E ++E  NLE         + +    A+P      ++ G D   +DF     R  +  D  L R V+D</Hsp_midline>
+            </Hsp>
+            <Hsp>
+              <Hsp_num>2</Hsp_num>
+              <Hsp_bit-score>20.4014</Hsp_bit-score>
+              <Hsp_score>41</Hsp_score>
+              <Hsp_evalue>0.410032</Hsp_evalue>
+              <Hsp_query-from>404</Hsp_query-from>
+              <Hsp_query-to>446</Hsp_query-to>
+              <Hsp_hit-from>24</Hsp_hit-from>
+              <Hsp_hit-to>71</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>HLLSVFLRRR-----LSSGADETEKEIDKLLNLDLEEEDEYDQLPTIR</Hsp_qseq>
+              <Hsp_hseq>HLVGVRLERANLIKAILSGADFSRAVLERALLIEADLRSTADQRTTLR</Hsp_hseq>
+              <Hsp_midline>HL+ V L R      + SGAD +   +++ L ++ +     DQ  T+R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>9</Statistics_db-num>
+          <Statistics_db-len>1187</Statistics_db-len>
+          <Statistics_hsp-len>42</Statistics_hsp-len>
+          <Statistics_eff-space>607559</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
