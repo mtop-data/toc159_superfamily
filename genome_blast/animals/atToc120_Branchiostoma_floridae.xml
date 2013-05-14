@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/non_plant_eukaryotes/aa/Branchiostoma_floridae</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1089</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|34512</Hit_id>
+          <Hit_def>@Branchiostoma_floridae@ jgi|Brafl1|140239|gw.465.17.1</Hit_def>
+          <Hit_accession>34512</Hit_accession>
+          <Hit_len>205</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>46.9802</Hsp_bit-score>
+              <Hsp_score>110</Hsp_score>
+              <Hsp_evalue>3.18983e-05</Hsp_evalue>
+              <Hsp_query-from>458</Hsp_query-from>
+              <Hsp_query-to>584</Hsp_query-to>
+              <Hsp_hit-from>4</Hsp_hit-from>
+              <Hsp_hit-to>133</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>64</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>131</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGI--KVRVIDTPGLLPSWSDQHKNEKILKSVRAFI--KKSPPDIVLYLDRLDMQSRDSGDMPLLRTITDVFGPSIWFNAIVGLTHA</Hsp_qseq>
+              <Hsp_hseq>TLLLFGKTGSGKSATGNTILGDKKFKVSSKGQTTKTYQVETCQVAGMTPNLTIIDTPDITESKQENNPSFDPMMEVAKWIVEAKDGVDAVLFVHRFGVRFSDQ-QKEVFKALEDNFGKEIFLHMIVVLTYG</Hsp_hseq>
+              <Hsp_midline>T+++ GK+G GKSAT N+I  + K    +    TK  Q     V G+   + +IDTP +  S  + + +   +  V  +I   K   D VL++ R  ++  D     + + + D FG  I+ + IV LT+ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|45905</Hit_id>
+          <Hit_def>@Branchiostoma_floridae@ jgi|Brafl1|246048|e_gw.465.6.1</Hit_def>
+          <Hit_accession>45905</Hit_accession>
+          <Hit_len>166</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>41.5874</Hsp_bit-score>
+              <Hsp_score>96</Hsp_score>
+              <Hsp_evalue>0.00129026</Hsp_evalue>
+              <Hsp_query-from>459</Hsp_query-from>
+              <Hsp_query-to>606</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>152</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>68</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>155</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDELKISTDAFQVG------TKKVQDIEGFVQGIKVRVIDTPGLLPSWSDQHKNEKILKSVRAFIKKSPPDIVLYLDRLDMQSRDSGDMPL-LRTITDVFGPSIWFNAIVGLTHAASAPPDGPNGTASSYDMFVTQR</Hsp_qseq>
+              <Hsp_hseq>VLLIGKTGHGKSSLGNSILGRCGKGIRVFESSPKGGSMTKVVQSKKGEVDGVTFNVVDTPGVMDT---DDPVTHIIEEIARCHQHCPDGIHALLMTIPYGQRFTVEETLALKQLEGMFGPELFKYGIVIFTRGDQFEQHLEDGDIDSFDEYLCSQ</Hsp_hseq>
+              <Hsp_midline>++++GK+G GKS+  NSI          F+        TK VQ  +G V G+   V+DTPG++ +         I++ +    +  P  I   L  +    R + +  L L+ +  +FGP ++   IV  T          +G   S+D ++  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|39686</Hit_id>
+          <Hit_def>@Branchiostoma_floridae@ jgi|Brafl1|211408|e_gw.45.290.1</Hit_def>
+          <Hit_accession>39686</Hit_accession>
+          <Hit_len>409</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>41.2022</Hsp_bit-score>
+              <Hsp_score>95</Hsp_score>
+              <Hsp_evalue>0.00486782</Hsp_evalue>
+              <Hsp_query-from>455</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>22</Hsp_hit-from>
+              <Hsp_hit-to>91</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>71</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFDELKIS-----------TDAFQVGTKKVQDIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>FEFTLMVVGESGLGKSTLVNSLFITDLYSPSEYPGPSQRITKTVKVETSRVLVKEGGVQ-LQLTIVDTPGF</Hsp_hseq>
+              <Hsp_midline>F  T+MV+G+SG+GKS  +NS+F     S           T   +V T +V   EG VQ +++ ++DTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|48229</Hit_id>
+          <Hit_def>@Branchiostoma_floridae@ jgi|Brafl1|260155|estExt_GenewiseH_1.C_60013</Hit_def>
+          <Hit_accession>48229</Hit_accession>
+          <Hit_len>326</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.817</Hsp_bit-score>
+              <Hsp_score>94</Hsp_score>
+              <Hsp_evalue>0.00598305</Hsp_evalue>
+              <Hsp_query-from>455</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>23</Hsp_hit-from>
+              <Hsp_hit-to>92</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>71</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFDELKIS-----------TDAFQVGTKKVQDIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>FEFTLMVVGESGLGKSTLVNSLFITDLYSPSEYPGPSQRITKTVKVETSRVLVKEGGVQ-LQLTIVDTPGF</Hsp_hseq>
+              <Hsp_midline>F  T+MV+G+SG+GKS  +NS+F     S           T   +V T +V   EG VQ +++ ++DTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|44747</Hit_id>
+          <Hit_def>@Branchiostoma_floridae@ jgi|Brafl1|239154|e_gw.366.37.1</Hit_def>
+          <Hit_accession>44747</Hit_accession>
+          <Hit_len>209</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>39.2762</Hsp_bit-score>
+              <Hsp_score>90</Hsp_score>
+              <Hsp_evalue>0.0106939</Hsp_evalue>
+              <Hsp_query-from>459</Hsp_query-from>
+              <Hsp_query-to>570</Hsp_query-to>
+              <Hsp_hit-from>4</Hsp_hit-from>
+              <Hsp_hit-to>113</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>53</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>116</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDELKISTDAFQVG-TKKVQDIEGFVQGI---KVRVIDTPGLLPSWSDQHKNEKILKSVRAFIKKSPPDIVLYLDRLDMQSRDSGDMPLLRTITDVFG</Hsp_qseq>
+              <Hsp_hseq>IALIGKTGAGKSSTANSI---LGYAASAVSCGLSSETKHCLFFTRDKGDRKISVVDTPGILDTGSTDEHTATILTQVATMFPNGLHALLFVVNHTRFTNEDALAVDLLR---HVFG</Hsp_hseq>
+              <Hsp_midline>I ++GK+G GKS+T NSI   L  +  A   G + + +    F +     K+ V+DTPG+L + S       IL  V          ++  ++     + D+  + LLR    VFG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>50817</Statistics_db-num>
+          <Statistics_db-len>22908308</Statistics_db-len>
+          <Statistics_hsp-len>114</Statistics_hsp-len>
+          <Statistics_eff-space>16687290750</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

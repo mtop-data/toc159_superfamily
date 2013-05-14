@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/non_plant_eukaryotes/aa/Cladonia_grayi</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1089</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9143</Hit_id>
+          <Hit_def>@Cladonia_grayi@ jgi|Clagr2|124170|estExt_fgenesh1_pg.C_980026</Hit_def>
+          <Hit_accession>9143</Hit_accession>
+          <Hit_len>406</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>42.743</Hsp_bit-score>
+              <Hsp_score>99</Hsp_score>
+              <Hsp_evalue>0.000357832</Hsp_evalue>
+              <Hsp_query-from>458</Hsp_query-from>
+              <Hsp_query-to>582</Hsp_query-to>
+              <Hsp_hit-from>8</Hsp_hit-from>
+              <Hsp_hit-to>135</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>41</Hsp_identity>
+              <Hsp_positive>64</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>134</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATI-NSIFDELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGL-LPSWSDQHKNEKILK----SVRAFIKKSPPDIVLYLDRL---DMQSRDSGDMPLLRTITDVFGPSIWFNAIVGLT</Hsp_qseq>
+              <Hsp_hseq>VIAVMGLTGTGKSSLIQNATGDSSVYVENKLHSGTQEVKSYKLQLNGTKYVLIDTPGFDDPLKSDTAVVDKILEWLETSYRAGRQLSG---IIYLHRIIDPRMQGSALRNMRMFRKLC---GPDCYKNVVLATT</Hsp_hseq>
+              <Hsp_midline> I V+G +G GKS+ I N+  D      +    GT++V+  +  + G K  +IDTPG   P  SD    +KIL+    S RA  + S    ++YL R+    MQ     +M + R +    GP  + N ++  T</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9326</Hit_id>
+          <Hit_def>@Cladonia_grayi@ jgi|Clagr2|111369|fgenesh1_pg.267_#_2</Hit_def>
+          <Hit_accession>9326</Hit_accession>
+          <Hit_len>308</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.0466</Hsp_bit-score>
+              <Hsp_score>92</Hsp_score>
+              <Hsp_evalue>0.00214988</Hsp_evalue>
+              <Hsp_query-from>459</Hsp_query-from>
+              <Hsp_query-to>549</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>102</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>52</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>97</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFD-ELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGL-LPSWSDQHKNEKILKSVRAFIKKSPPDI----VLYLDRL</Hsp_qseq>
+              <Hsp_hseq>IAVIGETGSGKSSFINLVADSEIPVSNDLYS-SSRTLTVISTRIQSKNVNFIDTPGFDDTSTTDAEVLEDIVALLKAYYKE---DIKLSAVLYLHNI</Hsp_hseq>
+              <Hsp_midline>I V+G++G GKS+ IN + D E+ +S D +   ++ +  I   +Q   V  IDTPG    S +D    E I+  ++A+ K+   DI    VLYL  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|471</Hit_id>
+          <Hit_def>@Cladonia_grayi@ jgi|Clagr2|91250|fgenesh1_kg.12_#_19_#_isotig08054</Hit_def>
+          <Hit_accession>471</Hit_accession>
+          <Hit_len>469</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.1206</Hsp_bit-score>
+              <Hsp_score>87</Hsp_score>
+              <Hsp_evalue>0.0103269</Hsp_evalue>
+              <Hsp_query-from>455</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>95</Hsp_hit-from>
+              <Hsp_hit-to>165</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>71</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFD-------ELKISTDAFQVGTKKVQDIEGFVQ--GIKVR--VIDTPGL</Hsp_qseq>
+              <Hsp_hseq>FNFNVMVVGESGLGKSTLVNTLFNTSLYPPKERKGPSLDIIPKTVSIQSISADIEENGVRLRLTVVDTPGF</Hsp_hseq>
+              <Hsp_midline>F+  +MV+G+SG+GKS  +N++F+       E K  +      T  +Q I   ++  G+++R  V+DTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6839</Hit_id>
+          <Hit_def>@Cladonia_grayi@ jgi|Clagr2|94633|fgenesh1_kg.59_#_19_#_isotig09250</Hit_def>
+          <Hit_accession>6839</Hit_accession>
+          <Hit_len>385</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.0501955</Hsp_evalue>
+              <Hsp_query-from>456</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>31</Hsp_hit-from>
+              <Hsp_hit-to>100</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>70</Hsp_align-len>
+              <Hsp_qseq>SCTIMVLGKSGVGKSATINSIFD-ELKISTDAFQVGTKKVQ----------DIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>AFTIMVAGESGLGKTTFINTLFSTTIKNYADHRRRHAKQVDKTVEIEITKAELEEKFFKVRLTVIDTPGF</Hsp_hseq>
+              <Hsp_midline>+ TIMV G+SG+GK+  IN++F   +K   D  +   K+V           ++E     +++ VIDTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5765</Hit_id>
+          <Hit_def>@Cladonia_grayi@ jgi|Clagr2|113494|estExt_fgenesh1_pm.C_90009</Hit_def>
+          <Hit_accession>5765</Hit_accession>
+          <Hit_len>864</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>1.62388</Hsp_evalue>
+              <Hsp_query-from>706</Hsp_query-from>
+              <Hsp_query-to>750</Hsp_query-to>
+              <Hsp_hit-from>811</Hsp_hit-from>
+              <Hsp_hit-to>856</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>46</Hsp_align-len>
+              <Hsp_qseq>QAKLPEQQYDDEDDEDDLD-ESSDSEEESEYDELPPFKRLTKAEMT</Hsp_qseq>
+              <Hsp_hseq>EASSTDHESRDEDSEDEVNHESIDTENSSDADTSPPPKRPAKAKLS</Hsp_hseq>
+              <Hsp_midline>+A   + +  DED ED+++ ES D+E  S+ D  PP KR  KA+++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>11415</Statistics_db-num>
+          <Statistics_db-len>5021693</Statistics_db-len>
+          <Statistics_hsp-len>104</Statistics_hsp-len>
+          <Statistics_eff-space>3777015005</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

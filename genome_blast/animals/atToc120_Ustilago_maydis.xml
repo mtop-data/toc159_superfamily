@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/non_plant_eukaryotes/aa/Ustilago_maydis</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc120_gi|332642323|gb|AEE75844.1| translocase of chloroplast 120 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1089</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3598</Hit_id>
+          <Hit_def>@Ustilago_maydis@ jgi|Ustma1|3599|UM03599</Hit_def>
+          <Hit_accession>3598</Hit_accession>
+          <Hit_len>379</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>39.2762</Hsp_bit-score>
+              <Hsp_score>90</Hsp_score>
+              <Hsp_evalue>0.00340456</Hsp_evalue>
+              <Hsp_query-from>458</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>27</Hsp_hit-from>
+              <Hsp_hit-to>94</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>38</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>68</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATINSIFD-ELKISTDAFQVGTKKVQ----------DIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>TLMVVGESGVGKTTLINTLFSTELATGKDHTRRHTKQLDKTVEIDIIKAELEEKQFKVKLTVIDTPGF</Hsp_hseq>
+              <Hsp_midline>T+MV+G+SGVGK+  IN++F  EL    D  +  TK++           ++E     +K+ VIDTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3734</Hit_id>
+          <Hit_def>@Ustilago_maydis@ jgi|Ustma1|3735|UM03735</Hit_def>
+          <Hit_accession>3734</Hit_accession>
+          <Hit_len>447</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.1946</Hsp_bit-score>
+              <Hsp_score>82</Hsp_score>
+              <Hsp_evalue>0.0355598</Hsp_evalue>
+              <Hsp_query-from>455</Hsp_query-from>
+              <Hsp_query-to>514</Hsp_query-to>
+              <Hsp_hit-from>52</Hsp_hit-from>
+              <Hsp_hit-to>121</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>70</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFDEL----KISTDAFQVGTKKV------QDIEGFVQGIKVRVIDTPGL</Hsp_qseq>
+              <Hsp_hseq>FNFTAMVVGESGLGKSTLINTLFNTTLYPRKEVPPPHQERPKTVAIESISSDIEENGVRLRLNVVDTPGF</Hsp_hseq>
+              <Hsp_midline>F+ T MV+G+SG+GKS  IN++F+      K      Q   K V       DIE     +++ V+DTPG </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|743</Hit_id>
+          <Hit_def>@Ustilago_maydis@ jgi|Ustma1|744|UM00744</Hit_def>
+          <Hit_accession>743</Hit_accession>
+          <Hit_len>655</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.395062</Hsp_evalue>
+              <Hsp_query-from>440</Hsp_query-from>
+              <Hsp_query-to>515</Hsp_query-to>
+              <Hsp_hit-from>399</Hsp_hit-from>
+              <Hsp_hit-to>473</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>78</Hsp_align-len>
+              <Hsp_qseq>AMAEQLEAAAQD--PLDFSCTIMVLGKSGVGKSATINSIFDELKISTDAFQVGTKKVQDIEGFVQGIKVRVIDTPGLL</Hsp_qseq>
+              <Hsp_hseq>ACAPSLDDFAIDGQPAPSKLVVGLVGYPNVGKSSTINALLGEKKVSVSSTPGKTKHFQTIHLSPTTV---LCDCPGLV</Hsp_hseq>
+              <Hsp_midline>A A  L+  A D  P      + ++G   VGKS+TIN++  E K+S  +    TK  Q I      +   + D PGL+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3448</Hit_id>
+          <Hit_def>@Ustilago_maydis@ jgi|Ustma1|3449|UM03449</Hit_def>
+          <Hit_accession>3448</Hit_accession>
+          <Hit_len>359</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.3426</Hsp_bit-score>
+              <Hsp_score>72</Hsp_score>
+              <Hsp_evalue>0.576318</Hsp_evalue>
+              <Hsp_query-from>456</Hsp_query-from>
+              <Hsp_query-to>566</Hsp_query-to>
+              <Hsp_hit-from>13</Hsp_hit-from>
+              <Hsp_hit-to>132</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>34</Hsp_identity>
+              <Hsp_positive>59</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>124</Hsp_align-len>
+              <Hsp_qseq>SCTIMVLGKSGVGKSATINSIFDE----LKIS----TDAFQVGTK-KVQDIEGFVQGIKV--RVIDTPGLLPSWSDQHKNEKILKSVRAFIKKSPPDIVLYLDRL--DMQSRDSGDMPLLRTIT</Hsp_qseq>
+              <Hsp_hseq>SFCLMVVGASGTGKTTFVNTLCESEVIGHKISDNPETAHIEEGIRIKPVHVELEEDGMRIGLTIVDTPG----FGDNIDNEYAFSEIVGFLERQYDDILAEESRIKRNPRFRDNRVHALLYFIT</Hsp_hseq>
+              <Hsp_midline>S  +MV+G SG GK+  +N++ +      KIS    T   + G + K   +E    G+++   ++DTPG    + D   NE     +  F+++   DI+    R+  + + RD+    LL  IT</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2367</Hit_id>
+          <Hit_def>@Ustilago_maydis@ jgi|Ustma1|2368|UM02368</Hit_def>
+          <Hit_accession>2367</Hit_accession>
+          <Hit_len>1516</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>9.85876</Hsp_evalue>
+              <Hsp_query-from>772</Hsp_query-from>
+              <Hsp_query-to>816</Hsp_query-to>
+              <Hsp_hit-from>1254</Hsp_hit-from>
+              <Hsp_hit-to>1298</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>45</Hsp_align-len>
+              <Hsp_qseq>MKRQMKEERKRRKLLKKFAAEIKDMPNGYSENVEEERSEPASVPV</Hsp_qseq>
+              <Hsp_hseq>LKKQIAEEQLMRKIEARFAAPSERPSKRQSDDTDGEKSEVSALPV</Hsp_hseq>
+              <Hsp_midline>+K+Q+ EE+  RK+  +FAA  +      S++ + E+SE +++PV</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6522</Statistics_db-num>
+          <Statistics_db-len>3993690</Statistics_db-len>
+          <Statistics_hsp-len>103</Statistics_hsp-len>
+          <Statistics_eff-space>3275417064</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/non_plant_eukaryotes/aa/Trichoplax_adhaerens</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>atToc132_gi|330251427|gb|AEC06521.1| translocase of chloroplast 132 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>1206</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>atToc132_gi|330251427|gb|AEC06521.1| translocase of chloroplast 132 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>1206</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1706</Hit_id>
+          <Hit_def>@Trichoplax_adhaerens@ jgi|Triad1|55770|fgeneshTA2_pg.C_scaffold_4000661</Hit_def>
+          <Hit_accession>1706</Hit_accession>
+          <Hit_len>456</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>43.1282</Hsp_bit-score>
+              <Hsp_score>100</Hsp_score>
+              <Hsp_evalue>0.000334168</Hsp_evalue>
+              <Hsp_query-from>573</Hsp_query-from>
+              <Hsp_query-to>668</Hsp_query-to>
+              <Hsp_hit-from>51</Hsp_hit-from>
+              <Hsp_hit-to>149</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>30</Hsp_identity>
+              <Hsp_positive>48</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>103</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRVQDVEGLVQG-------IKVRVIDTPGLLPSWSDQAKNEKILNSVKAFIKKNPPDIVLYLDRLD</Hsp_qseq>
+              <Hsp_hseq>FEFTLMVVGESGLGKSTLINSLFLSDVYTTANYDDRIKQTLQIEASTMDLEENGVRLKLTLIDTPG----FGDAIDNTNCWQPIIDFIQKRFDEYIQQESRID</Hsp_hseq>
+              <Hsp_midline>F  T+MV+G+SG+GKS  INS+F    + T  +    K+   +E            +K+ +IDTPG    + D   N      +  FI+K   + +    R+D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9870</Hit_id>
+          <Hit_def>@Trichoplax_adhaerens@ jgi|Triad1|50746|fgeneshTA2_pm.C_scaffold_11000027</Hit_def>
+          <Hit_accession>9870</Hit_accession>
+          <Hit_len>377</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>39.6614</Hsp_bit-score>
+              <Hsp_score>91</Hsp_score>
+              <Hsp_evalue>0.00380711</Hsp_evalue>
+              <Hsp_query-from>573</Hsp_query-from>
+              <Hsp_query-to>653</Hsp_query-to>
+              <Hsp_hit-from>37</Hsp_hit-from>
+              <Hsp_hit-to>123</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>14</Hsp_gaps>
+              <Hsp_align-len>91</Hsp_align-len>
+              <Hsp_qseq>FSCTIMVLGKSGVGKSATINSIFDEVKFCTDAFQMGTKRV--------QDVEGLVQGIKVR--VIDTPGLLPSWSDQAKNEKILNSVKAFI</Hsp_qseq>
+              <Hsp_hseq>FEFTVVVVGESGLGKSTLIDSLFQTNLYADRNIPNAKARIKKTVEIRKQTVDIEEKGVRLRLSVVDTPG----FGDALNNDKCWDNIVKFI</Hsp_hseq>
+              <Hsp_midline>F  T++V+G+SG+GKS  I+S+F    +          R+        Q V+   +G+++R  V+DTPG    + D   N+K  +++  FI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4997</Hit_id>
+          <Hit_def>@Trichoplax_adhaerens@ jgi|Triad1|58045|fgeneshTA2_pg.C_scaffold_7000263</Hit_def>
+          <Hit_accession>4997</Hit_accession>
+          <Hit_len>278</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.0262504</Hsp_evalue>
+              <Hsp_query-from>577</Hsp_query-from>
+              <Hsp_query-to>636</Hsp_query-to>
+              <Hsp_hit-from>109</Hsp_hit-from>
+              <Hsp_hit-to>173</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>65</Hsp_align-len>
+              <Hsp_qseq>IMVLGKSGVGKSATINSIFDEVKFCTDAFQMG-----TKRVQDVEGLVQGIKVRVIDTPGLLPSW</Hsp_qseq>
+              <Hsp_hseq>IMVIGLPNVGKSSVINAIRRIRKNKGNAAHVGGVPGITRAVQTNIEVCSNPKTFLVDTPGIMPTY</Hsp_hseq>
+              <Hsp_midline>IMV+G   VGKS+ IN+I    K   +A  +G     T+ VQ    +    K  ++DTPG++P++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9597</Hit_id>
+          <Hit_def>@Trichoplax_adhaerens@ jgi|Triad1|61223|fgeneshTA2_pg.C_scaffold_22000025</Hit_def>
+          <Hit_accession>9597</Hit_accession>
+          <Hit_len>695</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.0722692</Hsp_evalue>
+              <Hsp_query-from>576</Hsp_query-from>
+              <Hsp_query-to>673</Hsp_query-to>
+              <Hsp_hit-from>81</Hsp_hit-from>
+              <Hsp_hit-to>174</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>49</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>100</Hsp_align-len>
+              <Hsp_qseq>TIMVLGKSGVGKSATINSIFDEVK--FCTDAFQMGTKRVQDVEGLVQGIKVRVIDTPGLLPSWSDQAKNEKILNSVKAFIKKNPPDIVLYLDRLDMQSRD</Hsp_qseq>
+              <Hsp_hseq>VVSIIGNTGDGKSYTLNQTFFDGQQVFATSADQ-DSCTIGVWAALCRPLRTIILDTEGMLGCKSDENQRMRLLMKVLAI-----SDVVIYRTRSHRLHRD</Hsp_hseq>
+              <Hsp_midline> + ++G +G GKS T+N  F + +  F T A Q  +  +     L + ++  ++DT G+L   SD+ +  ++L  V A       D+V+Y  R     RD</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1370</Hit_id>
+          <Hit_def>@Trichoplax_adhaerens@ jgi|Triad1|23415|e_gw1.4.934.1</Hit_def>
+          <Hit_accession>1370</Hit_accession>
+          <Hit_len>405</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.509491</Hsp_evalue>
+              <Hsp_query-from>571</Hsp_query-from>
+              <Hsp_query-to>670</Hsp_query-to>
+              <Hsp_hit-from>212</Hsp_hit-from>
+              <Hsp_hit-to>309</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>54</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>102</Hsp_align-len>
+              <Hsp_qseq>LDFSCTIMVLGKSGVGKSATINSIFDEVKFCTDAFQMG-TKRVQDVEGLVQGIKVRVIDTPGLLPSWSDQAKNEKILNSVKAFIKKNP-PDIVLYLDRLDMQ</Hsp_qseq>
+              <Hsp_hseq>LKTSITVGVVGLPNVGKSSVINSL-KRSRACTVGSEPGVTKNMQEI-NLDKHIK--LLDSPGIVMSKRNDNTGLILRNCVKLDEVQDPIPAVEAILKRCNRQ</Hsp_hseq>
+              <Hsp_midline>L  S T+ V+G   VGKS+ INS+    + CT   + G TK +Q++  L + IK  ++D+PG++ S  +      + N VK    ++P P +   L R + Q</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>11520</Statistics_db-num>
+          <Statistics_db-len>5219359</Statistics_db-len>
+          <Statistics_hsp-len>105</Statistics_hsp-len>
+          <Statistics_eff-space>4414744659</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
