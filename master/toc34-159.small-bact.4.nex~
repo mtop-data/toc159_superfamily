@@ -1,4 +1,12 @@
->atToc120_gi_332642323_gb_AEE75844.1__translocase_of_chloroplast_120_[Arabidopsis_thaliana]
+#NEXUS
+[saved by seaview on Wed May 15 20:02:11 2013]
+BEGIN DATA;
+  DIMENSIONS NTAX=51 NCHAR=846;
+  FORMAT DATATYPE=PROTEIN
+  GAP=-
+  ;
+MATRIX
+[1] atToc120_gi_332642323_gb_AEE75844.1__translocase_of_chloroplast_120_[Arabidopsis_thaliana]
 RVNGNVSHNQP-QQAEDSTTAETDEHDETREKLQFIRVKFLRLSHRLGQTPHNVVVAQVL
 YRLGLAEQLR-GRNGSRVGAFSF----DRASAMAEQLEAAAQ-DPLDFSCTIMVLGKSGV
 GKSATINS-IFDELK-ISTDA---------------FQVGTKKVQD----IEGFV-----
@@ -14,7 +22,7 @@ TSLGFDMQNAGKELAYTIRSETRFNKFRKNKAAAGLSVTLLGDSVSAGLKVEDKLIANKR
 FRMVMSGGAMTSRGDVAYGGTLEAQFRDKDYPLGRFLSTLGLSVMDWHGDLAIGGNIQSQ
 VPIGRSSNLIARANLNNRGAGQVSIRVNSSEQLQLAVVALVPLFK---KLLTYYSP-EQM
 QYGH--
->Arabidopsis_lyrata_gnl_BL_ORD_ID_12951__479127_PACid_16046698
+[2] Arabidopsis_lyrata_gnl_BL_ORD_ID_12951__479127_PACid_16046698
 RVNGNVSHNQP-QQAEDSTTGETDEHDETREKLQFIRVKFLRLSHRLGQTPHNVVVAQVL
 YRLGLAEQLR-GRNGSRVGAFSF----DRASAMAEQLEAAGQ-DPLDFSCTIMVLGKSGV
 GKSATINS-IFDELK-ISTDA---------------FQMGTKRVQD----IEGFV-----
@@ -30,7 +38,7 @@ TSLGFDMQNAGKELAYTVRSETKFNSFRKNKAAAGLSVTLLGDSVSAGLKVEDKLIANKR
 FRMVMSGGAMTSRGDVAYGGTLEAQFRDKDYPLGRFLSTLGLSVMDWHGDLAIGGNIQSQ
 VPIGRSSNLIARANLNNRGAGQVTIRVNSSEQLQLAVVALVPLFK---KLLSYYYSPEQM
 QYGH--
->atToc132_gi_330251427_gb_AEC06521.1__translocase_of_chloroplast_132_[Arabidopsis_thaliana]
+[3] atToc132_gi_330251427_gb_AEC06521.1__translocase_of_chloroplast_132_[Arabidopsis_thaliana]
 RVNGNGSHNQF-QQAEDSTTTEADEHDETREKLQLIRVKFLRLAHRLGQTPHNVVVAQVL
 YRLGLAEQLR-GRNGSRVGAFSF----DRASAMAEQLEAAGQ-DPLDFSCTIMVLGKSGV
 GKSATINS-IFDEVK-FCTDA---------------FQMGTKRVQD----VEGLV-----
@@ -46,7 +54,7 @@ TSLGFDMQTVGKELAYTLRSETRFNNFRRNKAAAGLSVTHLGDSVSAGLKVEDKFIASKW
 FRIVMSGGAMTSRGDFAYGGTLEAQLRDKDYPLGRFLTTLGLSVMDWHGDLAIGGNIQSQ
 VPIGRSSNLIARANLNNRGAGQVSVRVNSSEQLQLAMVAIVPLFK---KLLSYYYP--QT
 QYGQ--
->Arabidopsis_lyrata_gnl_BL_ORD_ID_7943__480549_PACid_16041690
+[4] Arabidopsis_lyrata_gnl_BL_ORD_ID_7943__480549_PACid_16041690
 RVNGNGSHNQS-QQAEDSTTVETDEHDETREKLQLIRVKFLRLAHRLGQTPHNVVVAQVL
 YRLGLAEQLR-GRNGSRVGAFSF----DRASAMAEQLEAAGQ-DPLDFSCTIMVLGKSGV
 GKSATINS-IFDEVK-FCTDA---------------FQMGTKRVQD----VDGLV-----
@@ -62,7 +70,7 @@ TSLGFDMQTVGKELAYTLRSETRFNNFRRNKAAAGLSVTLLGDSVSAGLKVEDKLIASKW
 FRMVMSGGAMTSRGDFAYGGTLEAQLRDKDYPLGRFLTTLGLSVMDWHGDLAIGGNIQSQ
 VPIGRSSNLIARANLNNRGAGQVSVRVNSSEQLQLAMVAIVPLFK---KLLSYCYP--QT
 QYGQ--
->Oryza_sativa_gnl_BL_ORD_ID_2601__LOC_Os10g40110.1_PACid_21885073
+[5] Oryza_sativa_gnl_BL_ORD_ID_2601__LOC_Os10g40110.1_PACid_21885073
 RANGPVAVDRETRQDVESP-EDGDENDEIREKLQMIRVKFLRLANRFGQTPNNMVVSQVL
 YRLGLAEQLRRN---TGQGVFSF----DRAQDMAERLEAAGN-EPLDFSCTILVLGKTGV
 GKSATINS-IFDDVR-LETNA---------------FDTSTRKVQE----VVGAV-----
@@ -78,7 +86,7 @@ TSLGLDLQSVGKDMAYTLRGESRFKNFRRNNTAAGISATLLGDSVSAGVKVEDKLVVNKQ
 LRVLVSGGAMSGRGDVAYGGRLEATLKDKDYPIGRMLSTIALSVVDWHGDLAVGCNIQSQ
 IPAGRASNLIGHANLSNKGTGQVGIRLNSSEHLEIALIALVPIYQNIKKLLQS-------
 ------
->Zea_mays_gnl_BL_ORD_ID_19098__GRMZM5G861756_T01_PACid_20838824
+[6] Zea_mays_gnl_BL_ORD_ID_19098__GRMZM5G861756_T01_PACid_20838824
 RASRPAAVDKGTQEATESAEDDRDENDDIHEKLQMIRVKFLRLAGRLGQTSHNMVVSQVL
 YRLGLAEQLRR----TANGTFSI----DRAREMAERLEAAGN-EPLDFSCTILVLGKTGV
 GKSATINS-IFDDIR-LDTNA---------------FDSSTMKVQ-----VVGTV-----
@@ -94,7 +102,7 @@ TSFGLDLQSVGKDMAYTIRGESRFKNFRRNNTAAGISATLLGDSVSAGLKIEDKLIVNKQ
 LRVLVSSGAMSGRGDVAYGGRLEA-IRDKNYPIGRLLSTIALSVVDWHGDLAIGCNIQSQ
 IPAGRASNLVGHANLSNKGTGQVGIRLNSSEHLEIALVALVPIFQNIMKLLQNYLESG--
 ------
->Physcomitrella_patens_gnl_BL_ORD_ID_13071__Pp1s123_61V6.1_PACid_18049606
+[7] Physcomitrella_patens_gnl_BL_ORD_ID_13071__Pp1s123_61V6.1_PACid_18049606
 RPNGAPSTQLT-ATTEENANSDTAEGNETREKLQNIRVKFLRLAHRLGQSPQNVVVAQVL
 YRLGLAESLRGGNTSNRAGAFSF----DRANALAEEQEAANQEEELDFACTILVLGKTGV
 GKSATINS-IFDDRK-SVTSA---------------FKPSTNKVQE----IVGTV-----
@@ -110,7 +118,7 @@ TLTGFDVQTIGKDLAYTLRAETRFNNFKRNKTTAGVTATYLNDTIAAGVKLEDRILIGKR
 VKMVVNGGVLTGKGDKAFGGSLEATLRGKEYPLSRTLSTLGLSVMDWHGDLAIGGNLQSQ
 FMVGK-TMMVGRANLNNRGSGQVSIRASSSEQLQMVLIGIVPILR---SLINCRFGFGGG
 QSSQ--
->Physcomitrella_patens_gnl_BL_ORD_ID_251__Pp1s136_62V6.1_PACid_18036785
+[8] Physcomitrella_patens_gnl_BL_ORD_ID_251__Pp1s136_62V6.1_PACid_18036785
 RPNGALSTQIT-STTDESASSDAAEGDETREKLQNIRVKFLRLAHRLGQSPQNVVVAQVL
 YRLGLAESLRGGSAPNRSGAFSF----DRANALAEEQEAANQEEELDFACTILVLGKTGV
 GKSSTINS-IFDERK-SVTSA---------------FKPSTNKVQE----VIGTV-----
@@ -126,7 +134,7 @@ TLTGFDVQTIGKDLAYTVRAETRFNNFKRNKTTAGVTATYLNDTIAAGVKLEDRVLIGKR
 VKLVVNGGVLTGKGDKAYGGSLEATLRGKEYPLSRTLSTLGLSVMDWHGDLAIGGNLQSQ
 FMVGK-TMMVGRANLNNRGSGQVSIRASSSEQLQMVLIGIVPILR---SLINCRFGF-GG
 QSQQ--
->Physcomitrella_patens_gnl_BL_ORD_ID_13091__Pp1s123_63V6.1_PACid_18049626
+[9] Physcomitrella_patens_gnl_BL_ORD_ID_13091__Pp1s123_63V6.1_PACid_18049626
 SSNAASSTQVA-GTTDVNPSIEVNEVNETREKLQNIRVKFLRLVHRLGQSPQNVVVAQVL
 YRLGLAESLRGGSTRNHTRAFDF----DRANAIAEEQEADNQEEELDFACTILVLGKTGV
 GKSATINS-IFDEHK-SVTNA---------------YNPSTTNVYE----VVGTM-----
@@ -142,7 +150,7 @@ TLTGFDVQTIGKDLAYTLRAETRFNNFKRNKTTAGVTATYLNDTIAAGVKLEDRILIGKR
 VKMVVNGGVLTGKGDKAFGGSLEATLRGKEYPLSRTLSTLGLSVMDWHGDLAIGGNLQSQ
 FMVGK-TMMVGRANLNNRGSGQVSIRASSSEQLQMVLIGIVPILR---SLINCRFGFGGG
 QSSQ--
->Physcomitrella_patens_gnl_BL_ORD_ID_232__Pp1s136_59V6.1_PACid_18036766
+[10] Physcomitrella_patens_gnl_BL_ORD_ID_232__Pp1s136_59V6.1_PACid_18036766
 RPNTASSTQSA-ATSDASISSESSEANEIREKLQNIRIKFLRLARRLNQSPQNVVVAQVL
 YRLGLAESLRGGSSLNRTRAFSF----DHANALAEEQEAAKY-EDLDFACTILVLGKTGV
 GKSATINS-IFDECK-TVTSA---------------YYPSTTKVHE----VSGTV-----
@@ -158,7 +166,7 @@ TLTGFDVQTIGKDLAYTVRAETRFNNFKRNKTTAGVTATYLNDTIAAGVKLEDRVLIGKR
 VKLVVNGGVLTGKGDKAYGGSLEATLRGKEYPLSRTLSTLGLSVMDWHGDLAIGGNLQSQ
 FMVGK-TMMVGRANLNNRGSGQVSIRASSSEQLQMVLIGIVPILR---SLINCRFGF-GG
 QPQQ--
->Selaginella_moellendorffii_gnl_BL_ORD_ID_6113__170624_PACid_15407391
+[11] Selaginella_moellendorffii_gnl_BL_ORD_ID_6113__170624_PACid_15407391
 NPSGGSETTTA-VEAADTNGEPNDENVETREKLQMIRVKFLRLAQRLGQSANNAVVAQVL
 YRLGLAEQLRGGRSSSRNSAFRF----ERASAIAEEQEAAGQ-EELDFTCTIMVLGKSGV
 GKSATINS-LFDEAK-TETNA---------------FAYSTKKVQE----ITGTV-----
@@ -174,7 +182,7 @@ SQAGFDVQTVGKDFSYTLRSETRFSNFKKNKTIAGLAMTMIGDTLAYGMKIEDRLMIGRR
 VKVVMNGGALTGKGDTAYGGTVEISLRDKDFPLGRSLSTCGLSVMNWHGDMALGGNLQSQ
 FMVGK-TMVVARGNLNNRGAGQITIRLSSSEQLQIALIGVMPLIK---ALFNSKFGT-GQ
 QA----
->atToc159_AT4G02510.1_PACid_19644015
+[12] atToc159_AT4G02510.1_PACid_19644015
 RSNIFSNSNV--TMADETEINLSEEEKQKLEKLQSLRVKFLRLLQRLGHSAEDSIAAQVL
 YRLALLAGR------QAGQLFSL----DAAKKKAVESEAEGN-EELIFSLNILVLGKAGV
 GKSATINS-ILGNQI-ASIDA---------------FGLSTTSVRE----ISGTV-----
@@ -190,7 +198,7 @@ TMAGFDIQNVGKQLAYVVRGETKFKNLRKNKTTVGGSVTFLGENIATGVKLEDQIALGKR
 LVLVGSTGTMRSQGDSAYGANLEVRLREADFPIGQDQSSFGLSLVKWRGDLALGANLQSQ
 VSVGRNSKIALRAGLNNKMSGQITVRTSSSDQLQIALTAILPIAM---SIYKSIRPEATN
 DKYSMY
->Arabidopsis_lyrata_gnl_BL_ORD_ID_433__911963_PACid_16034180
+[13] Arabidopsis_lyrata_gnl_BL_ORD_ID_433__911963_PACid_16034180
 RSNIFSNPNV--TMADETEVNLSEEEKEKLEKLQSLRVKFLRLLQKLGHSAEDSIAAQVL
 YRLALLAGR------QTGQFFSL----DAAKKKAVESEAEGN-EDLNFSLNILVLGKAGV
 GKSATINS-ILGNQK-ASIDA---------------FGLSTTSVRE----ISETV-----
@@ -206,7 +214,7 @@ TMAGFDIQNVGKQLAYVVRGETKFKNLRKNKTTVGGSVTFLGENIATGVKLEDQIALGKR
 FVLVGSTGTMRSQGDSAYGANLEVRLREADFPIGQDQSSFGLSLVKWRGDLALGANLQSQ
 LSVGRNSKIALRAGLNNKMSGQITVRTSSSDQLQIALTAILPIAM---SIYKSIRPDATN
 DKYSMY
->Zea_mays_gnl_BL_ORD_ID_56215__GRMZM2G351125_T01_PACid_20876031
+[14] Zea_mays_gnl_BL_ORD_ID_56215__GRMZM2G351125_T01_PACid_20876031
 RSNLFSPSEL--AVTADPTEEMTEEEKKLHDKVELIRVKFLRLVYRLGATPEETVAAQVL
 YRLSLAEGIRHGR--QTNRAFSL----DNARRKALLLEAEGK-EDLNFSCNILVLGKTGV
 GKSATINS-VFGEEK-SKTDA---------------FSSATTNVRE----IIGDV-----
@@ -222,7 +230,7 @@ SLAGFDIQTVGRQLAYILRGETKIKNIKKNKTTGGFSVTFLGDIVATGLKIEDQLSLGKR
 LSLVASTGAMRAQGDTAYGANLEARLKDKDYPIAQSLSTLGLSLMKWRRDLALGANLQSQ
 FSIGRGSKMAVRLGLNNKLSGQITVRTSTSEQVQIALLGLVPVAA---SIYRSFRPSEPS
 FAY---
->Oryza_sativa_gnl_BL_ORD_ID_57949__LOC_Os05g05950.1_PACid_21940421
+[15] Oryza_sativa_gnl_BL_ORD_ID_57949__LOC_Os05g05950.1_PACid_21940421
 RSNLFSPSEL--AVTAEPTEEMTEEEKKLHDKVELIRVKFLRLVYRLGATPEETVAAQVL
 YRLSLAEGIRHGR--QTNRAFSL----DNARKKAMLLEAEGK-EELNFSCNILVLGKIGV
 GKSATINS-IFGEEK-SKTDA---------------FSSATNSVRE----IVGNV-----
@@ -238,7 +246,7 @@ SLAGFDIQTVGRQLAYILRGETKFKNIKKNKTTGGFSVTFLGDIVATGLKVEDQLSLGKR
 LALVASTGAMRAQGDTAYGANLEARLKDKDYPIGQSLSTLGLSLMKWRRDLALGANLQSQ
 FSIGRGSKMVVRLGLNNKLSGQITVRTSTSEQVQIALLGLIPVAA---SIYRSFRPSEPS
 FAY---
->Oryza_sativa_gnl_BL_ORD_ID_30676__LOC_Os03g61890.1_PACid_21913148
+[16] Oryza_sativa_gnl_BL_ORD_ID_30676__LOC_Os03g61890.1_PACid_21913148
 RKNVASSPVL--EVAPNPDNEMTEEERKLYRKVDVARIKYLRLIHRLGYDTEHHIAIQVL
 YRLSLVEGFRRIK--VANHSSEL----ESAWKKALQLEAEGT-EDLEFSCNVLVLGKTGV
 GKSATINS-IFGEDK-SKTSA---------------FLPATTAVKE----ISGVV-----
@@ -254,7 +262,7 @@ SLAGFDIQTIMDQLAYTLRGESKFKNSKKNTTTGGLSMTFLGDTMVTGAKFEDKLSVGDR
 LTLLANTGAVSIRGDTAYGVNMEATLREKDYLMGQDLAILGASLVRWHKEWSMAAKLDSQ
 FSMGRASNVAVHVDLTNKLTGRVSIKANTSEQLKIALLGVCSMTM---YLWNRMHPFIDR
 NY----
->Toc90_gi_75291915_sp_Q6S5G3.1_TOC90_ARATH_RecName__Full=Translocase_of_chloroplast_90__chloroplastic;_Short=AtToc90;_AltName__Full=90_kDa_chloroplast_outer_envelope_protein;_AltName__Full=Plastid_protein_import_4
+[17] 'Toc90_gi_75291915_sp_Q6S5G3.1_TOC90_ARATH_RecName__Full=Translocase_of_chloroplast_90__chloroplastic;_Short=AtToc90;_AltName__Full=90_kDa_chloroplast_outer_envelope_protein;_AltName__Full=Plastid_protein_import_4'
 ILPPLSQQQVPLESLYQSSIDLNGKKHNPLAKIGGLQVQFLRLVQRFGQSQNNILVSKVL
 YRVHLAMLIRAEESELKNVKLRQ----DRAKALAREQESSGI-PELDFSLRILVLGKTGV
 GKSATINS-IFGQPK-SETDA---------------FRPGTDRIEE----VMGTV-----
@@ -270,7 +278,7 @@ FSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDVGVGLTSFGGKYYVGGKLEDTLLVGKR
 VKLTANAGQMRGSGQTANGGSFEACIRGRDYPVRNEQIGLTMTALSFKRELVLNYGLQTQ
 FRPARGTNIDVNINMNNRKMGKINVKLNSSEHWEIALISALTMFK---ALVRRSKTEMT-
 ------
->Arabidopsis_lyrata_gnl_BL_ORD_ID_24265__910069_PACid_16058012
+[18] Arabidopsis_lyrata_gnl_BL_ORD_ID_24265__910069_PACid_16058012
 --PPLSQQQVPLESLYQSSIDLNGKKHNPLAKIGDLQVQFLRLVQRFGQSQNNILVSKVL
 YRVHLALLIRAEESELKTVKLRQ----DRAKALAREQELSGT-PELDFSLRILILGKTGV
 GKSATINS-IFGQSK-SETDA---------------FRPATDRIEE----VMGTV-----
@@ -286,7 +294,7 @@ FSVAVDLQSSGEDLVYSFQGGTKLQTFKHNTTDLGVGLTSFGGKYYVGGKLEDTLLVGKR
 VKLTVNAGQMRGSGQTAHGGSFEACIRGRDYPVRNEQICLTMTALSFNRELVLNYGLQTQ
 LRPARGTNIDVNINMNNRKMGKINVKLNSAEHWEIALISALTMFK---ALVRRRKSEMT-
 ------
->Zea_mays_gnl_BL_ORD_ID_3368__GRMZM2G100579_T02_PACid_20823094
+[19] Zea_mays_gnl_BL_ORD_ID_3368__GRMZM2G100579_T02_PACid_20823094
 EVTANSGSGAIYSGIVQQ--DDDNKKSDPLMKVEALQIKFLRLVYRTGVSPSADVVAQVL
 YRLQLANLIKASESDARRTNLAI----NKARVIAAQQEAPGG-PDLDVSMQILLLGKSGV
 GKSATINS-IFDERK-VATDA---------------LVPATHRIKK----IEGTI-----
@@ -302,7 +310,7 @@ LMGGMDMQTASKDLVCTVHGDAKFHNLPWNSIGGGISVTKFGNKYFAGAKLEDSVTIGRR
 VKLVANAGRMSGCGQVAHGGGVEITARGKDYPVREGSVTAAVSALSFEKETVIGANLQSD
 FRVGRGSKISVSANLNSRNLGNLSVRTSTSDHAEIALITVVSLIQ---FILRRRSAADN-
 ------
->Oryza_sativa_gnl_BL_ORD_ID_55936__LOC_Os12g09570.2_PACid_21938408
+[20] Oryza_sativa_gnl_BL_ORD_ID_55936__LOC_Os12g09570.2_PACid_21938408
 D------SEVTSSPSYEP--DHDSTKSDPLKHVEALQIKFLRLVHRTGVPPTTDVVAQVL
 YRLHLANLIKAGESDSKRTNLAI----NKARVIAAEQEAPGG-PDLDLPLRILLLGKTGV
 GKSATINS-IFDEPK-VATNA---------------LAPATERIRR----IDGTI-----
@@ -318,7 +326,7 @@ LIGSMNMQTANKDLVCTVNGDARFHNLPWNTTGGGISITKFGSKYFTGAKLEDSITVGRR
 VQLVGNAGRMVGCGQVAHGGGLEMTFRGKDYPVREESITVAATALSFEKETVISTNLQSD
 FRMGRGSKVSVSANLNSRNLGRFCVKTSTSDHSEIALVAAVTLFQ---FFLRRRTASTD-
 ------
->TOC100
+[21] TOC100
 LTGSSFQNSSELLSSNHSVELISERVKERVEKTQLLKEKLQRIIRRTCLSRENSTVTKVA
 SKMSLAGG-------EHPTSLGLDHMFDGTKIVLPEQEFP---ADLDFSINVLVIGKTGV
 GKSATVNS-IFGETK-SAVGA---------------FGVTTNSANY----VVGNV-----
@@ -334,7 +342,7 @@ STCS-------DW---------------RLNLLILCCSVKIRSKAGSLQKQNTDVEKAG-
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Arabidopsis_lyrata_gnl_BL_ORD_ID_25057__355185_PACid_16058804
+[22] Arabidopsis_lyrata_gnl_BL_ORD_ID_25057__355185_PACid_16058804
 LSESSFQNYSEVLCSDHSVQLISEKVKERVEKTQLLKEKLQRIIRRTDLCSENLTVTEVE
 SKLSIAGG-------EHQTTLGLDNVSDRTKIMLPEHEFP---DDLDFSINVLVIGKTGV
 GKSATINS-IFGETK-SLVGA---------------FGVTTKSANY----VVGNV-----
@@ -350,7 +358,7 @@ STCP-------DW---------------RLNLLILCCSVKIRSKAGLLQKQITVVEKAD-
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->atToc34CDS
+[23] atToc34CDS
 ------------------------------------------------------------
 ------------------EWIGIQQFPPATQSKLLEILGKYK-EEDVSSLTVLVMGKGGV
 GKSSTVNS-VIGEKA-AAVST---------------FQSEGLRPTL----VSRTR-----
@@ -366,7 +374,7 @@ ERGK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Oryza_sativa_gnl_BL_ORD_ID_33217__LOC_Os03g13730.1_PACid_21915689
+[24] Oryza_sativa_gnl_BL_ORD_ID_33217__LOC_Os03g13730.1_PACid_21915689
 ------------------------------------------------------------
 ------------------EWVGLQQFPAATQTKLHELLGKLK-EENVSTLTILVMGKGGV
 GKSSTVNS-IVGERV-ATVSA---------------FQSEGLRPMM----CSRTR-----
@@ -382,7 +390,7 @@ NRWK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Zea_mays_gnl_BL_ORD_ID_49367__GRMZM2G157157_T02_PACid_20869183
+[25] Zea_mays_gnl_BL_ORD_ID_49367__GRMZM2G157157_T02_PACid_20869183
 ------------------------------------------------------------
 ------------------EWVGLQQFPAATQTKLHELLGKLK-EEDVSTLTILVMGKGGV
 GKSSTVNS-IVGERV-ASVSA---------------FQSEGLRPMM----CSRTR-----
@@ -398,7 +406,7 @@ NRRK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Arabidopsis_lyrata_gnl_BL_ORD_ID_30599__311338_PACid_16064346
+[26] Arabidopsis_lyrata_gnl_BL_ORD_ID_30599__311338_PACid_16064346
 ------------------------------------------------------------
 ------------------EWVGFQQFPAATQEKLIEFFGKLK-QKDMNSMTVLVLGKGGV
 GKSSTVNS-LIGEQV-VRVSP---------------FQAEGLRPVM----VSRTM-----
@@ -414,7 +422,7 @@ DKGK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->atToc33
+[27] atToc33
 ------------------------------------------------------------
 ------------------EWVGFQQFPAATQEKLIEFFGKLK-QKDMNSMTVLVLGKGGV
 GKSSTVNS-LIGEQV-VRVSP---------------FQAEGLRPVM----VSRTM-----
@@ -430,7 +438,7 @@ DKGK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Physcomitrella_patens_gnl_BL_ORD_ID_31223__Pp1s54_12V6.1_PACid_18067760
+[28] Physcomitrella_patens_gnl_BL_ORD_ID_31223__Pp1s54_12V6.1_PACid_18067760
 ------------------------------------------------------------
 ------------------EWTGLLQFPVATQTALHNILGKLR-QQKKESLTVLVVGKGGV
 GKSSTVNS-IIGERV-TVVSA---------------FQSETLRPLQ----CARTR-----
@@ -446,7 +454,7 @@ GKGK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Selaginella_moellendorffii_gnl_BL_ORD_ID_6422__178526_PACid_15407700
+[29] Selaginella_moellendorffii_gnl_BL_ORD_ID_6422__178526_PACid_15407700
 ------------------------------------------------------------
 ------------------EWSGINQFPVATQTALHGLLGKVR-QQNVDSMTVLVLGKGGV
 GKSSTVNS-IIGERV-AAVSA---------------FQSETLRPLF----VSRSR-----
@@ -462,7 +470,7 @@ NRGK--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Physcomitrella_patens_gnl_BL_ORD_ID_2394__Pp1s6_441V6.1_PACid_18038928
+[30] Physcomitrella_patens_gnl_BL_ORD_ID_2394__Pp1s6_441V6.1_PACid_18038928
 ------------------------------------------------------------
 ------------------EWTGFQGLPAATQIILHTLLAKLR-KQKVDKITIVLLGKGGV
 GKSSIVNS-LFSERV-AAVSA---------------FRSETLRPRQ----YSRSK-----
@@ -478,7 +486,7 @@ PLGS--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5312__06.g252200.t1.1_PACid_19863610
+[31] Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5312__06.g252200.t1.1_PACid_19863610
 ------------------------------------------------------------
 ------------------PWAGLNRLPE--RDDMLDILNELR-AEGRKQLTVLLLGKSSV
 GKSSLINS-LLGEAV-VRVQA------FKLQADTDITTTVVRQVAV----GNSEV-----
@@ -494,7 +502,7 @@ FR----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Volvox_carteri_gnl_BL_ORD_ID_4108__Vocar20003545m_PACid_23127977
+[32] Volvox_carteri_gnl_BL_ORD_ID_4108__Vocar20003545m_PACid_23127977
 ------------------------------------------------------------
 ------------------------------------------------------MPTTGW
 WIAQVPHPPLASNGI-CRVDSGITPFLVGSQADAEATMTIVRHISV----GDPEI-----
@@ -510,7 +518,7 @@ FR----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Cyanidioschyzon_merolae_gnl_BL_ORD_ID_3128__gnl_CMER_CMP284C_similar_to_chloroplast_outer_membrane_protein_Toc34
+[33] Cyanidioschyzon_merolae_gnl_BL_ORD_ID_3128__gnl_CMER_CMP284C_similar_to_chloroplast_outer_membrane_protein_Toc34
 ------------------------------------------------------------
 ------------------QVLALEDVPEPTAQAILRLALAAE-RQGVPRLRFLVVGAPGV
 GKSSLINT-LLNENL-CSVSA---------------WERGTKNAQV----CARQV-----
@@ -526,7 +534,7 @@ RKL---PDDT-PW---------------ITQLYDGIRRFVFPLEADLFGMETGPEDTQ--
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Cyanophora_paradoxa_gnl_BL_ORD_ID_516__ConsensusfromContig10710-snap_masked-ConsensusfromContig10710-abinit-gene-0.1-mRNA-1_cds_3832/1722-1917_0_+
+[34] 'Cyanophora_paradoxa_gnl_BL_ORD_ID_516__ConsensusfromContig10710-snap_masked-ConsensusfromContig10710-abinit-gene-0.1-mRNA-1_cds_3832/1722-1917_0_+'
 ------------------------------------------------------------
 ---------------------------DPVESMWDRLCTSAK-LERAEVLTVLVIGRSGV
 GKTALVNT-LFADEP-SKIKP---------------TSPFEHKPSEGFARVRSAY-----
@@ -542,7 +550,7 @@ RVL---PFGVPAWANIG---------PCVPALLEAAAESVANSMPE--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9231__17.g734300.t1.2_PACid_19867537
+[35] Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9231__17.g734300.t1.2_PACid_19867537
 ------------------------------------------------------------
 ---------------------------------AEEREGAAAEAVAGLRVKILVLGMTGT
 GKTELINS-LLNRPAGSRTNA---------------FREATRRVRV----VRGDH-----
@@ -558,7 +566,7 @@ AAAG--------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Volvox_carteri_gnl_BL_ORD_ID_9830__Vocar20012343m_PACid_23133716
+[36] Volvox_carteri_gnl_BL_ORD_ID_9830__Vocar20012343m_PACid_23133716
 ------------------------------------------------------------
 ---------------------------------LDSRE-PPHSPIAGLRLKILVLGMTGT
 GKSELINS-LLDRPASSRTSP---------------FREATRRVRV----IRGHH-----
@@ -574,7 +582,7 @@ SA----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Homo_sapiens_gnl_BL_ORD_ID_12914_gi_313760638_ref_NP_001186506.1__GIMAP1-GIMAP5_protein_[Homo_sapiens]
+[37] 'Homo_sapiens_gnl_BL_ORD_ID_12914_gi_313760638_ref_NP_001186506.1__GIMAP1-GIMAP5_protein_[Homo_sapiens]'
 ------------------------------------------------------------
 -------------------------------------------SATPPALRIILVGKTGC
 GKSATGNS-ILGQPV-FESKL--------------RAQSVTRTCQV----KTGTW-----
@@ -590,7 +598,7 @@ GKSATGNS-ILGQPV-FESKL--------------RAQSVTRTCQV----KTGTW-----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Homo_sapiens_gnl_BL_ORD_ID_12910_gi_23397516_ref_NP_694968.1__GTPase_IMAP_family_member_7_[Homo_sapiens]
+[38] Homo_sapiens_gnl_BL_ORD_ID_12910_gi_23397516_ref_NP_694968.1__GTPase_IMAP_family_member_7_[Homo_sapiens]
 ------------------------------------------------------------
 -----------------------------------------MAESEDRSLRIVLVGKTGS
 GKSATANT-ILGEEI-FDSRI--------------AAQAVTKNCQK----ASREW-----
@@ -606,7 +614,7 @@ GKSATANT-ILGEEI-FDSRI--------------AAQAVTKNCQK----ASREW-----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Takifugu_rubripes_gnl_BL_ORD_ID_6856_jgi_Takru4_708219_fgh5_pm.C_scaffold_7000026
+[39] Takifugu_rubripes_gnl_BL_ORD_ID_6856_jgi_Takru4_708219_fgh5_pm.C_scaffold_7000026
 ------------------------------------------------------------
 ---------------------------------------------------MMLIGKTGS
 GKSATGNT-ILGQKH-FESRV--------------GINSVTRQCQT----ASGVI-----
@@ -622,7 +630,7 @@ GKSATGNT-ILGQKH-FESRV--------------GINSVTRQCQT----ASGVI-----
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Takifugu_rubripes_gnl_BL_ORD_ID_15866_jgi_Takru4_562427_e_gw2.15.404.1
+[40] Takifugu_rubripes_gnl_BL_ORD_ID_15866_jgi_Takru4_562427_e_gw2.15.404.1
 ------------------------------------------------------------
 ---------------------------------NRAFETERQ-LRHVTDIRIVLLGAKGS
 GKTSALNT-ILNRPS-SQVPG------------------RTAQCVL----GRGLV-----
@@ -638,7 +646,7 @@ GFQ-------------------------VRELILRIEEMLAGCADA--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Anabaena_variabilis_ATCC_29413_gnl_BL_ORD_ID_3501_gi_75909106_ref_YP_323402.1__engA_gene_product_[Anabaena_variabilis_ATCC_29413]
+[41] Anabaena_variabilis_ATCC_29413_gnl_BL_ORD_ID_3501_gi_75909106_ref_YP_323402.1__engA_gene_product_[Anabaena_variabilis_ATCC_29413]
 ------------------------------------------------------------
 ---------------------------------IKHLPPTTE-LEENNEIKIAIIGRPNV
 GKSSLLNA-FAGEER-VIVSP---------------ISGTTRDAID----TFIER-----
@@ -654,7 +662,7 @@ RVEK------------------------ILELVTKANEEHKRR-----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Nostoc_sp_PCC_7120_gnl_BL_ORD_ID_793_637230843_alr0483_GTP-binding_protein_EngA_[Nostoc_sp._PCC_7120]
+[42] 'Nostoc_sp_PCC_7120_gnl_BL_ORD_ID_793_637230843_alr0483_GTP-binding_protein_EngA_[Nostoc_sp._PCC_7120]'
 ------------------------------------------------------------
 ---------------------------------IKHLPPVTE-LEENNEIKIAIIGRPNV
 GKSSLLNA-FAGEER-VIVSP---------------ISGTTRDAID----TFIER-----
@@ -670,7 +678,7 @@ RVEK------------------------ILELVTKANEEHKRRVSTSVI-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Microcystis_aeruginosa_NIES_843_gnl_BL_ORD_ID_80_641534060_MAE_00810_GTP_binding_protein_[Microcystis_aeruginosa_NIES-843]
+[43] 'Microcystis_aeruginosa_NIES_843_gnl_BL_ORD_ID_80_641534060_MAE_00810_GTP_binding_protein_[Microcystis_aeruginosa_NIES-843]'
 ------------------------------------------------------------
 ---------------------------------IKYLPPAAE-IPENEEIKVAIIGRPNV
 GKSSLLNA-LTGQQR-AIVSP---------------ISGTTRDSID----TLIER-----
@@ -686,7 +694,7 @@ RVTK------------------------ILELVDIAAESHRRRVSTSVI-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Synechococcus_elongatus_PCC_6301_gnl_BL_ORD_ID_1764_637617446_syc1763_c_GTP-binding_protein_EngA_[Synechococcus_elongatus_PCC_6301]
+[44] 'Synechococcus_elongatus_PCC_6301_gnl_BL_ORD_ID_1764_637617446_syc1763_c_GTP-binding_protein_EngA_[Synechococcus_elongatus_PCC_6301]'
 ------------------------------------------------------------
 ---------------------------------LELLPPADEAAGDETEIGVAIVGRPNV
 GKSSLLNS-FLGEQR-AIVSP---------------IAGTTRDAID----TVIER-----
@@ -702,7 +710,7 @@ RVEK------------------------ILDQVNTVVEQHRRRVGTSVI-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Anabaena_variabilis_ATCC_29413_gnl_BL_ORD_ID_5110_gi_75910714_ref_YP_325010.1__era_gene_product_[Anabaena_variabilis_ATCC_29413]
+[45] Anabaena_variabilis_ATCC_29413_gnl_BL_ORD_ID_5110_gi_75910714_ref_YP_325010.1__era_gene_product_[Anabaena_variabilis_ATCC_29413]
 ------------------------------------------------------------
 ---------------------------------SGEVSIPQA-PPEFKSGFIGIIGRPNV
 GKSTLMNQ-LVGQKI-AITSP---------------VAQTTRNRLR----GIVTT-----
@@ -718,7 +726,7 @@ ELPQ------------------------LQELLVEHLEHGPYY-----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Microcoleus_chthonoplastes_PCC_7420_gnl_BL_ORD_ID_1669_647566030_MC7420_506_GTP-binding_protein_Era_[Microcoleus_chthonoplastes_PCC_7420]
+[46] 'Microcoleus_chthonoplastes_PCC_7420_gnl_BL_ORD_ID_1669_647566030_MC7420_506_GTP-binding_protein_Era_[Microcoleus_chthonoplastes_PCC_7420]'
 ------------------------------------------------------------
 ---------------------------------ADTVMIPQA-PEGFKSGFVGIIGRPNV
 GKSTLMNE-LVGQKI-AITSP---------------VAQTTRNRLQ----GILTT-----
@@ -734,7 +742,7 @@ GLAT------------------------LQEQLIDRLEQGPYYYPPNLV-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Acaryochloris_marina_MBIC11017_gnl_BL_ORD_ID_3480_641252663_AM1_3580_GTP-binding_protein_Era-like_protein_[Acaryochloris_marina_MBIC11017]
+[47] 'Acaryochloris_marina_MBIC11017_gnl_BL_ORD_ID_3480_641252663_AM1_3580_GTP-binding_protein_Era-like_protein_[Acaryochloris_marina_MBIC11017]'
 ------------------------------------------------------------
 ---------------------------------SSLTSIPQA-SPEFKSGFVAIVGRPNV
 GKSTLMNQ-LIGQKI-AITSP---------------VAQTTRNRLR----GILTT-----
@@ -750,7 +758,7 @@ KLKS------------------------LQRQLIEKLVPGPYYYPPDLV-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Arthrospira_platensis_Paraca_gnl_BL_ORD_ID_4015_646131753_AplaP_010100020559_GTP-binding_protein_Era_[Arthrospira_platensis_Paraca]
+[48] 'Arthrospira_platensis_Paraca_gnl_BL_ORD_ID_4015_646131753_AplaP_010100020559_GTP-binding_protein_Era_[Arthrospira_platensis_Paraca]'
 ------------------------------------------------------------
 ---------------------------------IFPVSIPVA-PEGYKSGFVGIIGRPNV
 GKSTLMNK-LVGQKI-AITSP---------------IAQTTRNRLR----GILTT-----
@@ -766,7 +774,7 @@ GVET------------------------LQNLLINSLDPGPYYYPPDLV-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Drosophila_melanogaster_gnl_BL_ORD_ID_9955_gi_17137038_ref_NP_477064.1__peanut__isoform_A_[Drosophila_melanogaster]
+[49] Drosophila_melanogaster_gnl_BL_ORD_ID_9955_gi_17137038_ref_NP_477064.1__peanut__isoform_A_[Drosophila_melanogaster]
 ------------------------------------------------------------
 ---------------------------------NLPNQVYRKAVKRGFEFTLMVVGASGL
 GKSTLINS-MFLSDI-YNAEQ---------------YPGPSLRKKKTVAVEATKVMLKEN
@@ -782,7 +790,7 @@ KVR----GRRYPWGLVEVENLTHCDFIALRNMVIRTHLQDLKDVTNNVH-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Takifugu_rubripes_gnl_BL_ORD_ID_17846_jgi_Takru4_295838_estExt_Genewise2.C_710121
+[50] Takifugu_rubripes_gnl_BL_ORD_ID_17846_jgi_Takru4_295838_estExt_Genewise2.C_710121
 ------------------------------------------------------------
 ---------------------------------TLPNQVNRKAVKKGFMFTIMVAGKSGL
 GKSTLVNS-LFLTDL-YKDRK---------------VPSAQDRINQTVKIIKHTVGIEEK
@@ -798,7 +806,7 @@ MVR----GRAYPWGVVEAEDPLHSDSLLLRNMLVRTYMQDLKDVTQETH-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
->Homo_sapiens_gnl_BL_ORD_ID_25723_gi_164698496_ref_NP_001106964.1__septin-9_isoform_e_[Homo_sapiens]
+[51] 'Homo_sapiens_gnl_BL_ORD_ID_25723_gi_164698496_ref_NP_001106964.1__septin-9_isoform_e_[Homo_sapiens]'
 ------------------------------------------------------------
 ---------------------------------SILEQMRRKAMKQGFEFNIMVVGQSGL
 GKSTLINT-LFKSKI-SRKSV---------------QPTSEERIPKTIEIKSITHDIEEK
@@ -814,3 +822,17 @@ RIL----GRKTKWGTIEVENTTHCEFAYLRDLLIRTHMQNIKDITSSIH-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------
+;
+END;
+
+begin mrbayes;
+
+set Usebeagle = Yes;
+set Beagledevice = CPU;
+
+charset protein = 1 - 846;
+prset aamodelpr = mixed;
+
+exclude 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 71 72 73 74 75 76 77 84 85 86 87 103 129 136 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 167 168 169 170 176 177 178 179 180 181 197 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 239 240 241 242 243 244 245 246 247 293 322 323 332 333 334 335 336 339 340 364 365 366 371 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 423 424 425 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 656 826 827 828 834 835 836 837 838 839 840 841 842 843 844 845 846 ;
+
+mcmc ngen=2000000 printfreq=1000 samplefreq=1000;
